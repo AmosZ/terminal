@@ -1,0 +1,1090 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AO	debugserver.py	/^AO   = chr(245) # Abort Output$/;"	v
+APP_NAME	version.py	/^APP_NAME = 'terminator'$/;"	v
+APP_VERSION	version.py	/^APP_VERSION = '0.96'$/;"	v
+APTURLHandler	plugins/url_handlers.py	/^class APTURLHandler(plugin.URLHandler):$/;"	c
+AVAILABLE	plugins/activitywatch.py	/^    AVAILABLE = ['ActivityWatch', 'InactivityWatch']$/;"	v
+AVAILABLE	plugins/custom_commands.py	/^AVAILABLE = ['CustomCommandsMenu']$/;"	v
+AVAILABLE	plugins/maven.py	/^AVAILABLE = [ 'MavenPluginURLHandler' ]$/;"	v
+AVAILABLE	plugins/terminalshot.py	/^AVAILABLE = ['TerminalShot']$/;"	v
+AVAILABLE	plugins/testplugin.py	/^AVAILABLE = ['TestPlugin']$/;"	v
+AVAILABLE	plugins/url_handlers.py	/^AVAILABLE = ['LaunchpadBugURLHandler', 'LaunchpadCodeURLHandler', 'APTURLHandler']$/;"	v
+AYT	debugserver.py	/^AYT  = chr(246) # Are You There$/;"	v
+ActivityWatch	plugins/activitywatch.py	/^class ActivityWatch(plugin.MenuItem):$/;"	c
+AreYouThere	debugserver.py	/^AreYouThere = re.compile(UIAC + AYT)$/;"	v
+BOMS	configobj/configobj.py	/^BOMS = {$/;"	v
+BOM_LIST	configobj/configobj.py	/^BOM_LIST = {$/;"	v
+BOM_SET	configobj/configobj.py	/^BOM_SET = {$/;"	v
+BRK	debugserver.py	/^BRK  = chr(243) # Break$/;"	v
+BUS_BASE	ipc.py	/^BUS_BASE = 'net.tenshu.Terminator'$/;"	v
+BUS_NAME	ipc.py	/^    BUS_NAME = '%s%s' % (BUS_BASE, DISPLAY)$/;"	v
+BUS_NAME	ipc.py	/^    BUS_NAME = BUS_BASE$/;"	v
+BUS_PATH	ipc.py	/^BUS_PATH = '\/net\/tenshu\/Terminator'$/;"	v
+BareLF	debugserver.py	/^BareLF      = re.compile('([^' + CR + '])' + CR)$/;"	v
+Borg	borg.py	/^class Borg:$/;"	c
+Builder	configobj/configobj.py	/^class Builder(object):$/;"	c
+CONFIG	ipc.py	/^CONFIG = Config()$/;"	v
+CR	debugserver.py	/^CR   = chr(13)$/;"	v
+Config	config.py	/^class Config(object):$/;"	c
+ConfigBase	config.py	/^class ConfigBase(Borg):$/;"	c
+ConfigObj	configobj/configobj.py	/^class ConfigObj(Section):$/;"	c
+ConfigObjError	configobj/configobj.py	/^class ConfigObjError(SyntaxError):$/;"	c
+ConfigParserInterpolation	configobj/configobj.py	/^class ConfigParserInterpolation(InterpolationEngine):$/;"	c
+ConfigspecError	configobj/configobj.py	/^class ConfigspecError(ConfigObjError):$/;"	c
+Container	container.py	/^class Container(object):$/;"	c
+CustomCommandsMenu	plugins/custom_commands.py	/^class CustomCommandsMenu(plugin.MenuItem):$/;"	c
+DBusService	ipc.py	/^class DBusService(Borg, dbus.service.Object):$/;"	c
+DEBUG	util.py	/^DEBUG = False$/;"	v
+DEBUGCLASSES	util.py	/^DEBUGCLASSES = []$/;"	v
+DEBUGFILES	util.py	/^DEBUGFILES = False$/;"	v
+DEBUGMETHODS	util.py	/^DEBUGMETHODS = []$/;"	v
+DEFAULTS	config.py	/^DEFAULTS = {$/;"	v
+DEFAULT_INDENT_TYPE	configobj/configobj.py	/^DEFAULT_INDENT_TYPE = '    '$/;"	v
+DEFAULT_INTERPOLATION	configobj/configobj.py	/^DEFAULT_INTERPOLATION = 'configparser'$/;"	v
+DISPLAY	ipc.py	/^    DISPLAY  = hex(hash(gtk.gdk.get_display())).replace('-', '_')$/;"	v
+DM	debugserver.py	/^DM   = chr(242) # Data Mark$/;"	v
+DO	debugserver.py	/^DO   = chr(253)$/;"	v
+DONT	debugserver.py	/^DONT = chr(254)$/;"	v
+DoDont	debugserver.py	/^DoDont      = re.compile(UIAC +'[' + DO + DONT + '](.)')$/;"	v
+DuplicateError	configobj/configobj.py	/^class DuplicateError(ConfigObjError):$/;"	c
+EC	debugserver.py	/^EC   = chr(247) # Erase Character$/;"	v
+ECHO	debugserver.py	/^ECHO = chr(1)$/;"	v
+EL	debugserver.py	/^EL   = chr(248) # Erase Line$/;"	v
+EditableLabel	editablelabel.py	/^class EditableLabel(gtk.EventBox):$/;"	c
+Factory	factory.py	/^class Factory(Borg):$/;"	c
+GA	debugserver.py	/^GA   = chr(249) # Go Ahead$/;"	v
+HPaned	paned.py	/^class HPaned(Paned, gtk.HPaned):$/;"	c
+IAC	debugserver.py	/^IAC  = chr(255) # Interpret As Command$/;"	v
+IP	debugserver.py	/^IP   = chr(244) # Interrupt Process$/;"	v
+InactivityWatch	plugins/activitywatch.py	/^class InactivityWatch(plugin.MenuItem):$/;"	c
+InterpolationEngine	configobj/configobj.py	/^class InterpolationEngine(object):$/;"	c
+InterpolationError	configobj/configobj.py	/^class InterpolationError(ConfigObjError):$/;"	c
+InterpolationLoopError	configobj/configobj.py	/^class InterpolationLoopError(InterpolationError):$/;"	c
+IpTelnet	debugserver.py	/^IpTelnet    = re.compile(UIAC + IP)$/;"	v
+Keybindings	keybindings.py	/^class Keybindings:$/;"	c
+KeymapError	keybindings.py	/^class KeymapError(Exception):$/;"	c
+LF	debugserver.py	/^LF   = chr(10)$/;"	v
+LINEMODE	debugserver.py	/^LINEMODE = chr(34) # Linemode negotiation$/;"	v
+LaunchpadBugURLHandler	plugins/url_handlers.py	/^class LaunchpadBugURLHandler(plugin.URLHandler):$/;"	c
+LaunchpadCodeURLHandler	plugins/url_handlers.py	/^class LaunchpadCodeURLHandler(plugin.URLHandler):$/;"	c
+LayoutEditor	prefseditor.py	/^class LayoutEditor:$/;"	c
+MAX_INTERPOL_DEPTH	configobj/configobj.py	/^MAX_INTERPOL_DEPTH = 10$/;"	v
+MISSING	configobj/configobj.py	/^MISSING = object()$/;"	v
+MODIFIER	keybindings.py	/^MODIFIER = re.compile('<([^<]+)>')$/;"	v
+MavenPluginURLHandler	plugins/maven.py	/^class MavenPluginURLHandler(plugin.URLHandler):$/;"	c
+MenuItem	plugin.py	/^class MenuItem(Plugin):$/;"	c
+MissingInterpolationOption	configobj/configobj.py	/^class MissingInterpolationOption(InterpolationError):$/;"	c
+NOP	debugserver.py	/^NOP  = chr(241)$/;"	v
+NULL	debugserver.py	/^NULL = chr(0)$/;"	v
+NestingError	configobj/configobj.py	/^class NestingError(ConfigObjError):$/;"	c
+Notebook	notebook.py	/^class Notebook(Container, gtk.Notebook):$/;"	c
+OPTION_DEFAULTS	configobj/configobj.py	/^OPTION_DEFAULTS = {$/;"	v
+OtherTelnet	debugserver.py	/^OtherTelnet = re.compile(UIAC + '[^' + IAC + ']')$/;"	v
+PREFEDIT	prefseditor.py	/^    PREFEDIT = PrefsEditor(TERM)$/;"	v	class:LayoutEditor
+Paned	paned.py	/^class Paned(Container):$/;"	c
+ParseError	configobj/configobj.py	/^class ParseError(ConfigObjError):$/;"	c
+Plugin	plugin.py	/^class Plugin(object):$/;"	c
+PluginRegistry	plugin.py	/^class PluginRegistry(borg.Borg):$/;"	c
+PrefsEditor	prefseditor.py	/^class PrefsEditor:$/;"	c
+PythonConsoleServer	debugserver.py	/^class PythonConsoleServer(SocketServer.BaseRequestHandler):$/;"	c
+ReloadError	configobj/configobj.py	/^class ReloadError(IOError):$/;"	c
+RepeatSectionError	configobj/configobj.py	/^class RepeatSectionError(ConfigObjError):$/;"	c
+SB	debugserver.py	/^SB   = chr(250) # Subnegotiation follows$/;"	v
+SE	debugserver.py	/^SE   = chr(240) # End subnegotiation$/;"	v
+Searchbar	searchbar.py	/^class Searchbar(gtk.HBox):$/;"	c
+Section	configobj/configobj.py	/^class Section(dict):$/;"	c
+Signalman	signalman.py	/^class Signalman(object):$/;"	c
+SimpleVal	configobj/configobj.py	/^class SimpleVal(object):$/;"	c
+TARGET_TYPE_VTE	terminal.py	/^    TARGET_TYPE_VTE = 8$/;"	v	class:Terminal
+TERM	prefseditor.py	/^    TERM = terminal.Terminal()$/;"	v	class:LayoutEditor
+TabLabel	notebook.py	/^class TabLabel(gtk.HBox):$/;"	c
+TemplateInterpolation	configobj/configobj.py	/^class TemplateInterpolation(InterpolationEngine):$/;"	c
+Terminal	terminal.py	/^class Terminal(gtk.VBox):$/;"	c
+TerminalPopupMenu	terminal_popup_menu.py	/^class TerminalPopupMenu(object):$/;"	c
+TerminalShot	plugins/terminalshot.py	/^class TerminalShot(plugin.MenuItem):$/;"	c
+Terminator	terminator.py	/^class Terminator(Borg):$/;"	c
+TerminatorConsole	debugserver.py	/^class TerminatorConsole(code.InteractiveConsole):$/;"	c
+TerminatorEncoding	encoding.py	/^class TerminatorEncoding:$/;"	c
+TestBorg	tests/testborg.py	/^class TestBorg(Borg):$/;"	c
+TestBorg2	tests/testborg.py	/^class TestBorg2(Borg):$/;"	c
+TestPlugin	plugins/testplugin.py	/^class TestPlugin(plugin.Plugin):$/;"	c
+TestWidget	tests/testsignalman.py	/^class TestWidget():$/;"	c
+Titlebar	titlebar.py	/^class Titlebar(gtk.EventBox):$/;"	c
+UIAC	debugserver.py	/^UIAC        = '(^|[^' + IAC + '])' + IAC # Unescaped IAC$/;"	v
+URLHandler	plugin.py	/^class URLHandler(Plugin):$/;"	c
+UnknownType	configobj/configobj.py	/^class UnknownType(Exception):$/;"	c
+UnreprError	configobj/configobj.py	/^class UnreprError(ConfigObjError):$/;"	c
+VPaned	paned.py	/^class VPaned(Paned, gtk.VPaned):$/;"	c
+ValidateError	configobj/validate.py	/^class ValidateError(Exception):$/;"	c
+Validator	configobj/validate.py	/^class Validator(object):$/;"	c
+VdtMissingValue	configobj/validate.py	/^class VdtMissingValue(ValidateError):$/;"	c
+VdtParamError	configobj/validate.py	/^class VdtParamError(SyntaxError):$/;"	c
+VdtTypeError	configobj/validate.py	/^class VdtTypeError(ValidateError):$/;"	c
+VdtUnknownCheckError	configobj/validate.py	/^class VdtUnknownCheckError(ValidateError):$/;"	c
+VdtValueError	configobj/validate.py	/^class VdtValueError(ValidateError):$/;"	c
+VdtValueTooBigError	configobj/validate.py	/^class VdtValueTooBigError(VdtValueError):$/;"	c
+VdtValueTooLongError	configobj/validate.py	/^class VdtValueTooLongError(VdtValueError):$/;"	c
+VdtValueTooShortError	configobj/validate.py	/^class VdtValueTooShortError(VdtValueError):$/;"	c
+VdtValueTooSmallError	configobj/validate.py	/^class VdtValueTooSmallError(VdtValueError):$/;"	c
+WILL	debugserver.py	/^WILL = chr(251) # Subnegotiation commands$/;"	v
+WONT	debugserver.py	/^WONT = chr(252)$/;"	v
+WillWont	debugserver.py	/^WillWont    = re.compile(UIAC + '[' + WILL + WONT + '](.)')$/;"	v
+Window	window.py	/^class Window(Container, gtk.Window):$/;"	c
+WindowTitle	window.py	/^class WindowTitle(object):$/;"	c
+_	translation.py	/^    _ = dummytrans$/;"	v
+_	translation.py	/^    _ = gettext.gettext$/;"	v
+_	translation.py	/^_ = None$/;"	v
+_KEYCRE	configobj/configobj.py	/^    _KEYCRE = re.compile(r"%\\(([^)]*)\\)s")$/;"	v	class:ConfigParserInterpolation
+_KEYCRE	configobj/configobj.py	/^    _KEYCRE = re.compile(r"%\\(([^)]*)\\)s")$/;"	v	class:InterpolationEngine
+__all__	configobj/configobj.py	/^__all__ = ($/;"	v
+__all__	configobj/validate.py	/^__all__ = ($/;"	v
+__del__	signalman.py	/^    def __del__(self):$/;"	m	class:Signalman	file:
+__delitem__	configobj/configobj.py	/^    def __delitem__(self, key):$/;"	m	class:Section	file:
+__getitem__	config.py	/^    def __getitem__(self, key):$/;"	m	class:Config	file:
+__getitem__	configobj/configobj.py	/^    def __getitem__(self, key):$/;"	m	class:Section	file:
+__gproperties__	window.py	/^    __gproperties__ = {$/;"	v	class:Window
+__gsignals__	editablelabel.py	/^    __gsignals__ = {$/;"	v	class:EditableLabel
+__gsignals__	notebook.py	/^    __gsignals__ = {$/;"	v	class:TabLabel
+__gsignals__	searchbar.py	/^    __gsignals__ = {$/;"	v	class:Searchbar
+__gsignals__	terminal.py	/^    __gsignals__ = {$/;"	v	class:Terminal
+__gsignals__	titlebar.py	/^    __gsignals__ = {$/;"	v	class:Titlebar
+__init__	borg.py	/^    def __init__(self, borgtype=None):$/;"	m	class:Borg
+__init__	config.py	/^    def __init__(self):$/;"	m	class:ConfigBase
+__init__	config.py	/^    def __init__(self, profile='default'):$/;"	m	class:Config
+__init__	configobj/configobj.py	/^    def __init__(self):$/;"	m	class:ReloadError
+__init__	configobj/configobj.py	/^    def __init__(self):$/;"	m	class:SimpleVal
+__init__	configobj/configobj.py	/^    def __init__(self, infile=None, options=None, configspec=None, encoding=None,$/;"	m	class:ConfigObj
+__init__	configobj/configobj.py	/^    def __init__(self, message='', line_number=None, line=''):$/;"	m	class:ConfigObjError
+__init__	configobj/configobj.py	/^    def __init__(self, option):$/;"	m	class:InterpolationLoopError
+__init__	configobj/configobj.py	/^    def __init__(self, option):$/;"	m	class:MissingInterpolationOption
+__init__	configobj/configobj.py	/^    def __init__(self, parent, depth, main, indict=None, name=None):$/;"	m	class:Section
+__init__	configobj/configobj.py	/^    def __init__(self, section):$/;"	m	class:InterpolationEngine
+__init__	configobj/validate.py	/^    def __init__(self, functions=None):$/;"	m	class:Validator
+__init__	configobj/validate.py	/^    def __init__(self, name, value):$/;"	m	class:VdtParamError
+__init__	configobj/validate.py	/^    def __init__(self, value):$/;"	m	class:VdtTypeError
+__init__	configobj/validate.py	/^    def __init__(self, value):$/;"	m	class:VdtUnknownCheckError
+__init__	configobj/validate.py	/^    def __init__(self, value):$/;"	m	class:VdtValueError
+__init__	configobj/validate.py	/^    def __init__(self, value):$/;"	m	class:VdtValueTooBigError
+__init__	configobj/validate.py	/^    def __init__(self, value):$/;"	m	class:VdtValueTooLongError
+__init__	configobj/validate.py	/^    def __init__(self, value):$/;"	m	class:VdtValueTooShortError
+__init__	configobj/validate.py	/^    def __init__(self, value):$/;"	m	class:VdtValueTooSmallError
+__init__	container.py	/^    def __init__(self):$/;"	m	class:Container
+__init__	editablelabel.py	/^    def __init__(self, text = ""):$/;"	m	class:EditableLabel
+__init__	encoding.py	/^    def __init__(self):$/;"	m	class:TerminatorEncoding
+__init__	factory.py	/^    def __init__(self):$/;"	m	class:Factory
+__init__	ipc.py	/^    def __init__(self):$/;"	m	class:DBusService
+__init__	keybindings.py	/^    def __init__(self):$/;"	m	class:Keybindings
+__init__	keybindings.py	/^    def __init__(self, value):$/;"	m	class:KeymapError
+__init__	notebook.py	/^    def __init__(self, title, notebook):$/;"	m	class:TabLabel
+__init__	notebook.py	/^    def __init__(self, window):$/;"	m	class:Notebook
+__init__	paned.py	/^    def __init__(self):$/;"	m	class:HPaned
+__init__	paned.py	/^    def __init__(self):$/;"	m	class:Paned
+__init__	paned.py	/^    def __init__(self):$/;"	m	class:VPaned
+__init__	plugin.py	/^    def __init__(self):$/;"	m	class:Plugin
+__init__	plugin.py	/^    def __init__(self):$/;"	m	class:PluginRegistry
+__init__	plugin.py	/^    def __init__(self):$/;"	m	class:URLHandler
+__init__	plugins/activitywatch.py	/^    def __init__(self):$/;"	m	class:ActivityWatch
+__init__	plugins/activitywatch.py	/^    def __init__(self):$/;"	m	class:InactivityWatch
+__init__	plugins/custom_commands.py	/^    def __init__( self):$/;"	m	class:CustomCommandsMenu
+__init__	plugins/terminalshot.py	/^    def __init__(self):$/;"	m	class:TerminalShot
+__init__	prefseditor.py	/^    def __init__ (self, term):$/;"	m	class:PrefsEditor
+__init__	prefseditor.py	/^    def __init__(self, builder):$/;"	m	class:LayoutEditor
+__init__	searchbar.py	/^    def __init__(self):$/;"	m	class:Searchbar
+__init__	signalman.py	/^    def __init__(self):$/;"	m	class:Signalman
+__init__	terminal.py	/^    def __init__(self):$/;"	m	class:Terminal
+__init__	terminal_popup_menu.py	/^    def __init__(self, terminal):$/;"	m	class:TerminalPopupMenu
+__init__	terminator.py	/^    def __init__(self):$/;"	m	class:Terminator
+__init__	tests/testborg.py	/^    def __init__(self):$/;"	m	class:TestBorg
+__init__	tests/testborg.py	/^    def __init__(self):$/;"	m	class:TestBorg2
+__init__	tests/testsignalman.py	/^    def __init__(self):$/;"	m	class:TestWidget
+__init__	titlebar.py	/^    def __init__(self, terminal):$/;"	m	class:Titlebar
+__init__	window.py	/^    def __init__(self):$/;"	m	class:Window
+__init__	window.py	/^    def __init__(self, window):$/;"	m	class:WindowTitle
+__iter__	configobj/configobj.py	/^    __iter__ = iterkeys$/;"	v	class:Section
+__newobj__	configobj/configobj.py	/^def __newobj__(cls, *args):$/;"	f	file:
+__reduce__	configobj/configobj.py	/^    def __reduce__(self):$/;"	m	class:Section	file:
+__repr__	configobj/configobj.py	/^    def __repr__(self):$/;"	m	class:ConfigObj	file:
+__repr__	configobj/configobj.py	/^    def __repr__(self):$/;"	m	class:Section	file:
+__setitem__	config.py	/^    def __setitem__(self, key, value):$/;"	m	class:Config	file:
+__setitem__	configobj/configobj.py	/^    def __setitem__(self, key, value, unrepr=False):$/;"	m	class:Section	file:
+__setstate__	configobj/configobj.py	/^    def __setstate__(self, state):$/;"	m	class:Section	file:
+__shared_state	borg.py	/^    __shared_state = {} $/;"	v	class:Borg
+__str__	configobj/configobj.py	/^    __str__ = __repr__$/;"	v	class:Section
+__str__	keybindings.py	/^    def __str__(self):$/;"	m	class:KeymapError	file:
+__version__	configobj/configobj.py	/^__version__ = '4.7.2'$/;"	v
+__version__	configobj/validate.py	/^__version__ = '1.0.1'$/;"	v
+_a_to_u	configobj/configobj.py	/^    def _a_to_u(self, aString):$/;"	m	class:ConfigObj
+_autotext	editablelabel.py	/^    _autotext = None$/;"	v	class:EditableLabel
+_bools	configobj/configobj.py	/^    _bools = {$/;"	v	class:ConfigObj
+_builder	configobj/configobj.py	/^_builder = Builder()$/;"	v
+_check	configobj/configobj.py	/^                def _check(entry):$/;"	f	function:Section.__getitem__
+_check_value	configobj/validate.py	/^    def _check_value(self, value, fun_name, fun_args, fun_kwargs):$/;"	m	class:Validator
+_cookie	configobj/configobj.py	/^    _cookie = '$'$/;"	v	class:TemplateInterpolation
+_cookie	configobj/configobj.py	/^    _cookie = '%'$/;"	v	class:ConfigParserInterpolation
+_cookie	configobj/configobj.py	/^    _cookie = '%'$/;"	v	class:InterpolationEngine
+_create_command_dialog	plugins/custom_commands.py	/^    def _create_command_dialog(self, enabled_var = False, name_var = "", command_var = ""):$/;"	m	class:CustomCommandsMenu
+_custom	editablelabel.py	/^    _custom = None$/;"	v	class:EditableLabel
+_decode	configobj/configobj.py	/^    def _decode(self, infile, encoding):$/;"	m	class:ConfigObj
+_decode_element	configobj/configobj.py	/^    def _decode_element(self, line):$/;"	m	class:ConfigObj
+_delimiter	configobj/configobj.py	/^    _delimiter = '$'$/;"	v	class:TemplateInterpolation
+_ebox	editablelabel.py	/^    _ebox = None$/;"	v	class:EditableLabel
+_entry	editablelabel.py	/^    _entry = None$/;"	v	class:EditableLabel
+_entry_handler_id	editablelabel.py	/^    _entry_handler_id = None$/;"	v	class:EditableLabel
+_entry_to_label	editablelabel.py	/^    def _entry_to_label (self, widget, event):$/;"	m	class:EditableLabel
+_error	plugins/custom_commands.py	/^    def _error(self, msg):$/;"	m	class:CustomCommandsMenu
+_exec	ipc.py	/^    def _exec(*args, **argd):$/;"	f	function:with_proxy
+_execute	plugins/custom_commands.py	/^    def _execute(self, widget, data):$/;"	m	class:CustomCommandsMenu
+_fetch	configobj/configobj.py	/^    def _fetch(self, key):$/;"	m	class:InterpolationEngine
+_fields_	freebsd.py	/^  _fields_ = [$/;"	v	class:kinfo_file
+_fields_	freebsd.py	/^  _fields_ = [$/;"	v	class:sockaddr_storage
+_func_re	configobj/validate.py	/^    _func_re = re.compile(r'(.+?)\\((.*)\\)', re.DOTALL)$/;"	v	class:Validator
+_get_single_quote	configobj/configobj.py	/^    def _get_single_quote(self, value):$/;"	m	class:ConfigObj
+_get_triple_quote	configobj/configobj.py	/^    def _get_triple_quote(self, value):$/;"	m	class:ConfigObj
+_getval	configobj/configobj.py	/^        def _getval(key):$/;"	f	function:ConfigObj.__repr__
+_getval	configobj/configobj.py	/^        def _getval(key):$/;"	f	function:Section.__repr__
+_handle_bom	configobj/configobj.py	/^    def _handle_bom(self, infile):$/;"	m	class:ConfigObj
+_handle_comment	configobj/configobj.py	/^    def _handle_comment(self, comment):$/;"	m	class:ConfigObj
+_handle_configspec	configobj/configobj.py	/^    def _handle_configspec(self, configspec):$/;"	m	class:ConfigObj
+_handle_error	configobj/configobj.py	/^    def _handle_error(self, text, ErrorClass, infile, cur_index):$/;"	m	class:ConfigObj
+_handle_none	configobj/validate.py	/^    def _handle_none(self, value):$/;"	m	class:Validator
+_handle_value	configobj/configobj.py	/^    def _handle_value(self, value):$/;"	m	class:ConfigObj
+_initialise	configobj/configobj.py	/^    def _initialise(self):$/;"	m	class:Section
+_initialise	configobj/configobj.py	/^    def _initialise(self, options=None):$/;"	m	class:ConfigObj
+_interpolate	configobj/configobj.py	/^    def _interpolate(self, key, value):$/;"	m	class:Section
+_is_num_param	configobj/validate.py	/^def _is_num_param(names, values, to_float=False):$/;"	f
+_key_arg	configobj/validate.py	/^    _key_arg = re.compile(r'^([a-zA-Z_][a-zA-Z0-9_]*)\\s*=\\s*(.*)$',  re.DOTALL)$/;"	v	class:Validator
+_label	editablelabel.py	/^    _label = None$/;"	v	class:EditableLabel
+_list_arg	configobj/validate.py	/^    _list_arg = _list_arg$/;"	v	class:Validator
+_list_handle	configobj/validate.py	/^    def _list_handle(self, listmatch):$/;"	m	class:Validator
+_list_members	configobj/validate.py	/^    _list_members = _list_members$/;"	v	class:Validator
+_load	configobj/configobj.py	/^    def _load(self, infile, configspec):$/;"	m	class:ConfigObj
+_lookup	keybindings.py	/^    _lookup = None$/;"	v	class:Keybindings
+_lookup_modifier	keybindings.py	/^    def _lookup_modifier(self, modifier):$/;"	m	class:Keybindings
+_masks	keybindings.py	/^    _masks = None$/;"	v	class:Keybindings
+_match_depth	configobj/configobj.py	/^    def _match_depth(self, sect, depth):$/;"	m	class:ConfigObj
+_matchfinder	configobj/validate.py	/^    _matchfinder = re.compile(_matchstring, re.VERBOSE | re.DOTALL)$/;"	v	class:Validator
+_matchstring	configobj/validate.py	/^_matchstring = '^%s*' % _paramstring$/;"	v
+_multi_line_double	configobj/configobj.py	/^    _multi_line_double = re.compile(r'^(.*?)"""\\s*(#.*)?$')$/;"	v	class:ConfigObj
+_multi_line_single	configobj/configobj.py	/^    _multi_line_single = re.compile(r"^(.*?)'''\\s*(#.*)?$")$/;"	v	class:ConfigObj
+_multiline	configobj/configobj.py	/^    def _multiline(self, value, infile, cur_index, maxline):$/;"	m	class:ConfigObj
+_on_click_text	editablelabel.py	/^    def _on_click_text(self, widget, event):$/;"	m	class:EditableLabel
+_on_entry_activated	editablelabel.py	/^    def _on_entry_activated (self, widget):$/;"	m	class:EditableLabel
+_on_entry_keypress	editablelabel.py	/^    def _on_entry_keypress (self, widget, event):$/;"	m	class:EditableLabel
+_paramfinder	configobj/validate.py	/^    _paramfinder = re.compile(_paramstring, re.VERBOSE | re.DOTALL)$/;"	v	class:Validator
+_parse	configobj/configobj.py	/^    def _parse(self, infile):$/;"	m	class:ConfigObj
+_parse_check	configobj/validate.py	/^    def _parse_check(self, check):$/;"	m	class:Validator
+_parse_match	configobj/configobj.py	/^    def _parse_match(self, match):$/;"	m	class:ConfigParserInterpolation
+_parse_match	configobj/configobj.py	/^    def _parse_match(self, match):$/;"	m	class:InterpolationEngine
+_parse_match	configobj/configobj.py	/^    def _parse_match(self, match):$/;"	m	class:TemplateInterpolation
+_parse_with_caching	configobj/validate.py	/^    def _parse_with_caching(self, check):$/;"	m	class:Validator
+_parsebinding	keybindings.py	/^    def _parsebinding(self, binding):$/;"	m	class:Keybindings
+_pass	configobj/validate.py	/^    def _pass(self, value):$/;"	m	class:Validator
+_quote	configobj/configobj.py	/^    def _quote(self, value, multiline=True):$/;"	m	class:ConfigObj
+_save_config	plugins/custom_commands.py	/^    def _save_config(self):$/;"	m	class:CustomCommandsMenu
+_set_configspec	configobj/configobj.py	/^    def _set_configspec(self, section, copy):$/;"	m	class:ConfigObj
+_single_line_double	configobj/configobj.py	/^    _single_line_double = re.compile(r'^"""(.*?)"""\\s*(#.*)?$')$/;"	v	class:ConfigObj
+_single_line_single	configobj/configobj.py	/^    _single_line_single = re.compile(r"^'''(.*?)'''\\s*(#.*)?$")$/;"	v	class:ConfigObj
+_str	configobj/configobj.py	/^    def _str(self, value):$/;"	m	class:ConfigObj
+_test	configobj/validate.py	/^def _test(value, *args, **keywargs):$/;"	f
+_test2	configobj/validate.py	/^def _test2():$/;"	f
+_test3	configobj/validate.py	/^def _test3():$/;"	f
+_triple_quote	configobj/configobj.py	/^    _triple_quote = {$/;"	v	class:ConfigObj
+_unquote	configobj/configobj.py	/^    def _unquote(self, value):$/;"	m	class:ConfigObj
+_unquote	configobj/validate.py	/^    def _unquote(self, val):$/;"	m	class:Validator
+_write_line	configobj/configobj.py	/^    def _write_line(self, indent_string, entry, this_entry, comment):$/;"	m	class:ConfigObj
+_write_marker	configobj/configobj.py	/^    def _write_marker(self, indent_string, depth, entry, comment):$/;"	m	class:ConfigObj
+add	container.py	/^    def add(self, widget, metadata=None):$/;"	m	class:Container
+add	notebook.py	/^    def add(self, widget, metadata=None):$/;"	m	class:Notebook
+add	paned.py	/^    def add(self, widget, metadata=None):$/;"	m	class:Paned
+add	window.py	/^    def add(self, widget, metadata=None):$/;"	m	class:Window
+add_encoding_items	terminal_popup_menu.py	/^    def add_encoding_items(self, menu):$/;"	m	class:TerminalPopupMenu
+add_layout	config.py	/^    def add_layout(self, name, layout):$/;"	m	class:Config
+add_layout	config.py	/^    def add_layout(self, name, layout):$/;"	m	class:ConfigBase
+add_profile	config.py	/^    def add_profile(self, profile):$/;"	m	class:Config
+add_profile	config.py	/^    def add_profile(self, profile):$/;"	m	class:ConfigBase
+all_emit	terminator.py	/^    def all_emit(self, terminal, type, event):$/;"	m	class:Terminator
+any	configobj/configobj.py	/^    def any(iterable):$/;"	f	function:match_utf8
+apply_config	window.py	/^    def apply_config(self):$/;"	m	class:Window
+apply_icon	window.py	/^    def apply_icon(self):$/;"	m	class:Window
+as_bool	configobj/configobj.py	/^    def as_bool(self, key):$/;"	m	class:Section
+as_float	configobj/configobj.py	/^    def as_float(self, key):$/;"	m	class:Section
+as_int	configobj/configobj.py	/^    def as_int(self, key):$/;"	m	class:Section
+as_list	configobj/configobj.py	/^    def as_list(self, key):$/;"	m	class:Section
+attempt_gnome_client	terminator.py	/^    def attempt_gnome_client(self):$/;"	m	class:Terminator
+attribute	tests/testborg.py	/^    attribute = None$/;"	v	class:TestBorg
+attribute	tests/testborg.py	/^    attribute = None$/;"	v	class:TestBorg2
+available_plugins	plugin.py	/^    available_plugins = None$/;"	v	class:PluginRegistry
+base	config.py	/^    base = None$/;"	v	class:Config
+bellicon	titlebar.py	/^    bellicon = None$/;"	v	class:Titlebar
+bool	configobj/validate.py	/^    def bool(val):$/;"	f
+bool_dict	configobj/validate.py	/^bool_dict = {$/;"	v
+build	configobj/configobj.py	/^    def build(self, o):$/;"	m	class:Builder
+build_Add	configobj/configobj.py	/^    def build_Add(self, o):$/;"	m	class:Builder
+build_Const	configobj/configobj.py	/^    def build_Const(self, o):$/;"	m	class:Builder
+build_Dict	configobj/configobj.py	/^    def build_Dict(self, o):$/;"	m	class:Builder
+build_Getattr	configobj/configobj.py	/^    def build_Getattr(self, o):$/;"	m	class:Builder
+build_List	configobj/configobj.py	/^    def build_List(self, o):$/;"	m	class:Builder
+build_Name	configobj/configobj.py	/^    def build_Name(self, o):$/;"	m	class:Builder
+build_Tuple	configobj/configobj.py	/^    def build_Tuple(self, o):$/;"	m	class:Builder
+build_UnaryAdd	configobj/configobj.py	/^    def build_UnaryAdd(self, o):$/;"	m	class:Builder
+build_UnarySub	configobj/configobj.py	/^    def build_UnarySub(self, o):$/;"	m	class:Builder
+builder	prefseditor.py	/^    builder = None$/;"	v	class:LayoutEditor
+builder	prefseditor.py	/^    builder = None$/;"	v	class:PrefsEditor
+bus_name	ipc.py	/^    bus_name = None$/;"	v	class:DBusService
+bus_path	ipc.py	/^    bus_path = None$/;"	v	class:DBusService
+button	notebook.py	/^    button = None$/;"	v	class:TabLabel
+c	plugins/custom_commands.py	/^  c = CustomCommandsMenu()$/;"	v	class:CustomCommandsMenu
+callback	plugin.py	/^    def callback(self, menuitems, menu, terminal):$/;"	m	class:MenuItem
+callback	plugin.py	/^    def callback(self, url):$/;"	m	class:URLHandler
+callback	plugins/activitywatch.py	/^    def callback(self, menuitems, menu, terminal):$/;"	m	class:ActivityWatch
+callback	plugins/activitywatch.py	/^    def callback(self, menuitems, menu, terminal):$/;"	m	class:InactivityWatch
+callback	plugins/custom_commands.py	/^    def callback(self, menuitems, menu, terminal):$/;"	m	class:CustomCommandsMenu
+callback	plugins/maven.py	/^    def callback(self, url):$/;"	m	class:MavenPluginURLHandler
+callback	plugins/terminalshot.py	/^    def callback(self, menuitems, menu, terminal):$/;"	m	class:TerminalShot
+callback	plugins/url_handlers.py	/^    def callback(self, url):$/;"	m	class:APTURLHandler
+callback	plugins/url_handlers.py	/^    def callback(self, url):$/;"	m	class:LaunchpadBugURLHandler
+callback	plugins/url_handlers.py	/^    def callback(self, url):$/;"	m	class:LaunchpadCodeURLHandler
+capabilities	plugin.py	/^    capabilities = None$/;"	v	class:Plugin
+capabilities	plugin.py	/^    capabilities = ['terminal_menu']$/;"	v	class:MenuItem
+capabilities	plugin.py	/^    capabilities = ['url_handler']$/;"	v	class:URLHandler
+capabilities	plugins/activitywatch.py	/^    capabilities = ['terminal_menu']$/;"	v	class:ActivityWatch
+capabilities	plugins/activitywatch.py	/^    capabilities = ['terminal_menu']$/;"	v	class:InactivityWatch
+capabilities	plugins/custom_commands.py	/^    capabilities = ['terminal_menu']$/;"	v	class:CustomCommandsMenu
+capabilities	plugins/maven.py	/^    capabilities = ['url_handler']$/;"	v	class:MavenPluginURLHandler
+capabilities	plugins/terminalshot.py	/^    capabilities = ['terminal_menu']$/;"	v	class:TerminalShot
+capabilities	plugins/testplugin.py	/^    capabilities = ['test']$/;"	v	class:TestPlugin
+capabilities	plugins/url_handlers.py	/^    capabilities = ['url_handler']$/;"	v	class:APTURLHandler
+capabilities	plugins/url_handlers.py	/^    capabilities = ['url_handler']$/;"	v	class:LaunchpadBugURLHandler
+capabilities	plugins/url_handlers.py	/^    capabilities = ['url_handler']$/;"	v	class:LaunchpadCodeURLHandler
+check	configobj/configobj.py	/^    def check(self, check, member, missing=False):$/;"	m	class:SimpleVal
+check	configobj/validate.py	/^    def check(self, check, value, missing=False):$/;"	m	class:Validator
+check_for_url	terminal.py	/^    def check_for_url(self, event):$/;"	m	class:Terminal
+check_times	plugins/activitywatch.py	/^    def check_times(self, terminal):$/;"	m	class:InactivityWatch
+child_compare	notebook.py	/^        def child_compare(a, b):$/;"	f	function:Notebook.create_layout
+children	container.py	/^    children = None$/;"	v	class:Container
+clear	configobj/configobj.py	/^    def clear(self):$/;"	m	class:Section
+clipboard	terminal.py	/^    clipboard = None$/;"	v	class:Terminal
+close	terminal.py	/^    def close(self):$/;"	m	class:Terminal
+closegroupedterms	terminator.py	/^    def closegroupedterms(self, group):$/;"	m	class:Terminator
+closetab	notebook.py	/^    def closetab(self, widget, label):$/;"	m	class:Notebook
+closeterm	container.py	/^    def closeterm(self, widget):$/;"	m	class:Container
+closeterm	window.py	/^    def closeterm(self, widget):$/;"	m	class:Window
+cmd_list	plugins/custom_commands.py	/^    cmd_list = []$/;"	v	class:CustomCommandsMenu
+cnxids	signalman.py	/^    cnxids = None$/;"	v	class:Signalman
+cnxids	terminal.py	/^    cnxids = None$/;"	v	class:Terminal
+color2hex	prefseditor.py	/^def color2hex(widget):$/;"	f
+colorschemevalues	prefseditor.py	/^    colorschemevalues = {'black_on_yellow': 0, $/;"	v	class:PrefsEditor
+colourschemes	prefseditor.py	/^    colourschemes = {'grey_on_black': ['#aaaaaa', '#000000'],$/;"	v	class:PrefsEditor
+command	terminal.py	/^    command = None$/;"	v	class:Terminal
+command_line_options	config.py	/^    command_line_options = None$/;"	v	class:ConfigBase
+compiler	configobj/configobj.py	/^compiler = None$/;"	v
+composite_support	terminal.py	/^    composite_support = None$/;"	v	class:Terminal
+conf_file	plugins/custom_commands.py	/^    conf_file = os.path.join(get_config_dir(),"custom_commands")$/;"	v	class:CustomCommandsMenu
+config	container.py	/^    config = None$/;"	v	class:Container
+config	notebook.py	/^    config = None$/;"	v	class:TabLabel
+config	prefseditor.py	/^    config = None$/;"	v	class:LayoutEditor
+config	prefseditor.py	/^    config = None$/;"	v	class:PrefsEditor
+config	searchbar.py	/^    config = None$/;"	v	class:Searchbar
+config	terminal.py	/^    config = None$/;"	v	class:Terminal
+config	terminal_popup_menu.py	/^    config = None$/;"	v	class:TerminalPopupMenu
+config	terminator.py	/^    config = None$/;"	v	class:Terminator
+config	titlebar.py	/^    config = None$/;"	v	class:Titlebar
+configure	keybindings.py	/^    def configure(self, bindings):$/;"	m	class:Keybindings
+configure	notebook.py	/^    def configure(self):$/;"	m	class:Notebook
+configure	plugins/custom_commands.py	/^    def configure(self, widget, data = None):$/;"	m	class:CustomCommandsMenu
+confirm_close	window.py	/^    def confirm_close(self, window, type):$/;"	m	class:Window
+connect	tests/testsignalman.py	/^    def connect(self, signal, handler, *args):$/;"	m	class:TestWidget
+connect_child	container.py	/^    def connect_child(self, widget, signal, handler, *args):$/;"	m	class:Container
+connect_icon	titlebar.py	/^    def connect_icon(self, func):$/;"	m	class:Titlebar
+connect_signals	terminal.py	/^    def connect_signals(self):$/;"	m	class:Terminal
+construct_confirm_close	container.py	/^    def construct_confirm_close(self, window, reqtype):$/;"	m	class:Container
+count	tests/testsignalman.py	/^    count = None$/;"	v	class:TestWidget
+create_group	terminal.py	/^    def create_group(self, _item):$/;"	m	class:Terminal
+create_group	terminator.py	/^    def create_group(self, name):$/;"	m	class:Terminator
+create_group	titlebar.py	/^    def create_group(self):$/;"	m	class:Titlebar
+create_layout	container.py	/^    def create_layout(self, layout):$/;"	m	class:Container
+create_layout	notebook.py	/^    def create_layout(self, layout):$/;"	m	class:Notebook
+create_layout	paned.py	/^    def create_layout(self, layout):$/;"	m	class:Paned
+create_layout	terminal.py	/^    def create_layout(self, layout):$/;"	m	class:Terminal
+create_layout	terminator.py	/^    def create_layout(self, layoutname):$/;"	m	class:Terminator
+create_layout	window.py	/^    def create_layout(self, layout):$/;"	m	class:Window
+create_popup_group_menu	terminal.py	/^    def create_popup_group_menu(self, widget, event = None):$/;"	m	class:Terminal
+create_terminalbox	terminal.py	/^    def create_terminalbox(self):$/;"	m	class:Terminal
+custom_encoding	terminal.py	/^    custom_encoding = None$/;"	v	class:Terminal
+custom_font_size	terminal.py	/^    custom_font_size = None$/;"	v	class:Terminal
+cwd	terminal.py	/^    cwd = None$/;"	v	class:Terminal
+dbg	util.py	/^def dbg(log = ""):$/;"	f
+dbus_name	terminator.py	/^    dbus_name = None$/;"	v	class:Terminator
+dbus_path	terminator.py	/^    dbus_path = None$/;"	v	class:Terminator
+ddbg	debugserver.py	/^def ddbg(msg):$/;"	f
+debug_address	terminator.py	/^    debug_address = None$/;"	v	class:Terminator
+default_encoding	terminal.py	/^    default_encoding = None$/;"	v	class:Terminal
+defaults_to_configspec	config.py	/^    def defaults_to_configspec(self):$/;"	m	class:ConfigBase
+deferred_on_vte_size_allocate	terminal.py	/^    def deferred_on_vte_size_allocate(self, widget, allocation):$/;"	m	class:Terminal
+deferred_set_rough_geometry_hints	window.py	/^    def deferred_set_rough_geometry_hints(self):$/;"	m	class:Window
+del_layout	config.py	/^    def del_layout(self, layout):$/;"	m	class:Config
+del_profile	config.py	/^    def del_profile(self, profile):$/;"	m	class:Config
+deregister_terminal	terminator.py	/^    def deregister_terminal(self, terminal):$/;"	m	class:Terminator
+deregister_window	terminator.py	/^    def deregister_window(self, window):$/;"	m	class:Terminator
+describe_layout	container.py	/^    def describe_layout(self, count, parent, global_layout, child_order):$/;"	m	class:Container
+describe_layout	terminal.py	/^    def describe_layout(self, count, parent, global_layout, child_order):$/;"	m	class:Terminal
+describe_layout	terminator.py	/^    def describe_layout(self):$/;"	m	class:Terminator
+dialog_action	plugins/terminalshot.py	/^    dialog_action = gtk.FILE_CHOOSER_ACTION_SAVE$/;"	v	class:TerminalShot
+dialog_buttons	plugins/terminalshot.py	/^    dialog_buttons = (gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL,$/;"	v	class:TerminalShot
+dict	configobj/configobj.py	/^    def dict(self):$/;"	m	class:Section
+dict_diff	util.py	/^def dict_diff(reference, working):$/;"	f
+die	terminator.py	/^    def die(self, *args):$/;"	m	class:Terminator
+disable	plugin.py	/^    def disable(self, plugin):$/;"	m	class:PluginRegistry
+disconnect	tests/testsignalman.py	/^    def disconnect(self, signalid):$/;"	m	class:TestWidget
+disconnect_child	container.py	/^    def disconnect_child(self, widget):$/;"	m	class:Container
+do_autocleangroups_toggle	terminal.py	/^    def do_autocleangroups_toggle(self):$/;"	m	class:Terminal
+do_deferred_on_vte_size_allocate	terminal.py	/^    def do_deferred_on_vte_size_allocate(self, widget, allocation):$/;"	m	class:Terminal
+do_deferred_set_rough_geometry_hints	window.py	/^    def do_deferred_set_rough_geometry_hints(self):$/;"	m	class:Window
+do_enumerate	terminator.py	/^    def do_enumerate(self, widget, pad):$/;"	m	class:Terminator
+do_get_property	window.py	/^    def do_get_property(self, prop):$/;"	m	class:Window
+do_scrollbar_toggle	terminal.py	/^    def do_scrollbar_toggle(self):$/;"	m	class:Terminal
+do_search	searchbar.py	/^    def do_search(self, widget):$/;"	m	class:Searchbar
+do_set_property	window.py	/^    def do_set_property(self, prop, value):$/;"	m	class:Window
+do_splittogroup_toggle	terminal.py	/^    def do_splittogroup_toggle(self):$/;"	m	class:Terminal
+do_test	plugins/testplugin.py	/^    def do_test(self):$/;"	m	class:TestPlugin
+doing_layout	terminator.py	/^    doing_layout = None$/;"	v	class:Terminator
+done	plugin.py	/^    done = None$/;"	v	class:PluginRegistry
+dottedQuadToNum	configobj/validate.py	/^def dottedQuadToNum(ip):$/;"	f
+dquot	configobj/configobj.py	/^dquot = '"%s"'$/;"	v
+dummytrans	translation.py	/^    def dummytrans (text):$/;"	f
+ebox	titlebar.py	/^    ebox = None$/;"	v	class:Titlebar
+editing	editablelabel.py	/^    def editing(self):$/;"	m	class:EditableLabel
+editing	titlebar.py	/^    def editing(self):$/;"	m	class:Titlebar
+empty	keybindings.py	/^    empty = {}$/;"	v	class:Keybindings
+enable	plugin.py	/^    def enable(self, plugin):$/;"	m	class:PluginRegistry
+encodings	encoding.py	/^    encodings = [$/;"	v	class:TerminatorEncoding
+end_search	searchbar.py	/^    def end_search(self, widget=None):$/;"	m	class:Searchbar
+ensure_visible_and_focussed	terminal.py	/^    def ensure_visible_and_focussed(self):$/;"	m	class:Terminal
+entry	searchbar.py	/^    entry = None$/;"	v	class:Searchbar
+enumerate_descendants	util.py	/^def enumerate_descendants(parent):$/;"	f
+env	debugserver.py	/^  env = None$/;"	v	class:PythonConsoleServer
+err	util.py	/^def err(log = ""):$/;"	f
+execute_cb	optionparse.py	/^def execute_cb(option, opt, value, lparser):$/;"	f
+feed	terminal.py	/^    def feed(self, text):$/;"	m	class:Terminal
+find_tab_root	notebook.py	/^    def find_tab_root(self, widget):$/;"	m	class:Notebook
+find_terminal_by_uuid	terminator.py	/^    def find_terminal_by_uuid(self, uuid):$/;"	m	class:Terminator
+finish	debugserver.py	/^  def finish(self):$/;"	m	class:PythonConsoleServer
+flatten_errors	configobj/configobj.py	/^def flatten_errors(cfg, res, levels=None, results=None):$/;"	f
+focus_changed	terminator.py	/^    def focus_changed(self, widget):$/;"	m	class:Terminator
+force_list	configobj/validate.py	/^def force_list(value, min=None, max=None):$/;"	f
+force_set_profile	terminal.py	/^    def force_set_profile(self, widget, profile):$/;"	m	class:Terminal
+force_title	window.py	/^    def force_title(self, newtext):$/;"	m	class:WindowTitle
+forced	window.py	/^    forced = None$/;"	v	class:WindowTitle
+fun_dict	configobj/validate.py	/^fun_dict = {$/;"	v
+gconf	config.py	/^    gconf = None$/;"	v	class:Config
+gerr	util.py	/^def gerr(message = None):$/;"	f
+get	configobj/configobj.py	/^    def get(self, key, default=None):$/;"	m	class:Section
+getObj	configobj/configobj.py	/^def getObj(s):$/;"	f
+get_all_plugins	plugin.py	/^    def get_all_plugins(self):$/;"	m	class:PluginRegistry
+get_available_plugins	plugin.py	/^    def get_available_plugins(self):$/;"	m	class:PluginRegistry
+get_child_metadata	container.py	/^    def get_child_metadata(self, widget):$/;"	m	class:Container
+get_child_metadata	notebook.py	/^    def get_child_metadata(self, widget):$/;"	m	class:Notebook
+get_children	container.py	/^    def get_children(self):$/;"	m	class:Container
+get_children	notebook.py	/^    def get_children(self):$/;"	m	class:Notebook
+get_children	paned.py	/^    def get_children(self):$/;"	m	class:Paned
+get_children	window.py	/^    def get_children(self):$/;"	m	class:Window
+get_config_dir	util.py	/^def get_config_dir():$/;"	f
+get_cursor_position	terminal.py	/^    def get_cursor_position(self):$/;"	m	class:Terminal
+get_custom_label	notebook.py	/^    def get_custom_label(self):$/;"	m	class:TabLabel
+get_custom_string	titlebar.py	/^    def get_custom_string(self):$/;"	m	class:Titlebar
+get_cwd	terminal.py	/^    def get_cwd(self):$/;"	m	class:Terminal
+get_default_cwd	cwd.py	/^def get_default_cwd():$/;"	f
+get_default_value	configobj/validate.py	/^    def get_default_value(self, check):$/;"	m	class:Validator
+get_desired_visibility	titlebar.py	/^    def get_desired_visibility(self):$/;"	m	class:Titlebar
+get_edge	util.py	/^def get_edge(allocation, direction):$/;"	f
+get_extra_values	configobj/configobj.py	/^def get_extra_values(conf, _prepend=()):$/;"	f
+get_focussed_terminal	terminator.py	/^    def get_focussed_terminal(self):$/;"	m	class:Terminator
+get_focussed_terminal	window.py	/^    def get_focussed_terminal(self):$/;"	m	class:Window
+get_font_size	terminal.py	/^    def get_font_size(self):$/;"	m	class:Terminal
+get_item	config.py	/^    def get_item(self, key, profile='default', plugin=None):$/;"	m	class:ConfigBase
+get_label	notebook.py	/^    def get_label(self):$/;"	m	class:TabLabel
+get_layout	config.py	/^    def get_layout(self, layout):$/;"	m	class:ConfigBase
+get_list	encoding.py	/^    def get_list():$/;"	m	class:TerminatorEncoding
+get_list	encoding.py	/^    get_list = staticmethod(get_list)$/;"	v	class:TerminatorEncoding
+get_location	terminal.py	/^    def get_location(self, term, x, y):$/;"	m	class:Terminal
+get_nav_offset	util.py	/^def get_nav_offset(edge, allocation, direction):$/;"	f
+get_nav_possible	util.py	/^def get_nav_possible(edge, allocation, direction):$/;"	f
+get_nav_tiebreak	util.py	/^def get_nav_tiebreak(direction, cursor_x, cursor_y, rect):$/;"	f
+get_offspring	container.py	/^    def get_offspring(self):$/;"	m	class:Container
+get_pid_cwd	cwd.py	/^def get_pid_cwd():$/;"	f
+get_plugin	config.py	/^    def get_plugin(self, plugin):$/;"	m	class:ConfigBase
+get_plugins_by_capability	plugin.py	/^    def get_plugins_by_capability(self, capability):$/;"	m	class:PluginRegistry
+get_process_cwd	freebsd.py	/^def get_process_cwd(pid):$/;"	f
+get_profile	config.py	/^    def get_profile(self):$/;"	m	class:Config
+get_profile	terminal.py	/^    def get_profile(self):$/;"	m	class:Terminal
+get_search_term	searchbar.py	/^    def get_search_term(self):$/;"	m	class:Searchbar
+get_size	terminal.py	/^    def get_size(self):$/;"	m	class:Terminal
+get_system_focus	config.py	/^    def get_system_focus(self):$/;"	m	class:Config
+get_system_font	config.py	/^    def get_system_font(self):$/;"	m	class:Config
+get_target_terms	terminator.py	/^    def get_target_terms(self, widget):$/;"	m	class:Terminator
+get_terminals	ipc.py	/^    def get_terminals(self, uuid):$/;"	m	class:DBusService
+get_terminals	ipc.py	/^def get_terminals(session, uuid):$/;"	f
+get_text	editablelabel.py	/^    def get_text(self):$/;"	m	class:EditableLabel
+get_visible_terminals	container.py	/^    def get_visible_terminals(self):$/;"	m	class:Container
+get_visible_terminals	window.py	/^    def get_visible_terminals(self):$/;"	m	class:Window
+get_vte	searchbar.py	/^    def get_vte(self):$/;"	m	class:Searchbar
+get_vte	terminal.py	/^    def get_vte(self):$/;"	m	class:Terminal
+get_vte_buffer_range	searchbar.py	/^    def get_vte_buffer_range(self):$/;"	m	class:Searchbar
+get_window_title	terminal.py	/^    def get_window_title(self):$/;"	m	class:Terminal
+get_zoom_data	terminal.py	/^    def get_zoom_data(self):$/;"	m	class:Terminal
+global_config	config.py	/^    global_config = None$/;"	v	class:ConfigBase
+gnome_client	terminator.py	/^    gnome_client = None$/;"	v	class:Terminator
+grab_focus	paned.py	/^    def grab_focus(self):$/;"	m	class:Paned
+grab_focus	terminal.py	/^    def grab_focus(self):$/;"	m	class:Terminal
+group	terminal.py	/^    group = None$/;"	v	class:Terminal
+group_all	window.py	/^    def group_all(self, widget):$/;"	m	class:Window
+group_emit	terminator.py	/^    def group_emit(self, terminal, group, type, event):$/;"	m	class:Terminator
+group_hoover	terminator.py	/^    def group_hoover(self):$/;"	m	class:Terminator
+group_tab	window.py	/^    def group_tab(self, widget):$/;"	m	class:Window
+groupentry	titlebar.py	/^    groupentry = None$/;"	v	class:Titlebar
+groupentry_activate	titlebar.py	/^    def groupentry_activate(self, widget):$/;"	m	class:Titlebar
+groupentry_cancel	titlebar.py	/^    def groupentry_cancel(self, widget, event):$/;"	m	class:Titlebar
+groupentry_keypress	titlebar.py	/^    def groupentry_keypress(self, widget, event):$/;"	m	class:Titlebar
+groupicon	titlebar.py	/^    groupicon = None$/;"	v	class:Titlebar
+grouplabel	titlebar.py	/^    grouplabel = None$/;"	v	class:Titlebar
+groups	terminator.py	/^    groups = None$/;"	v	class:Terminator
+groupsend	terminator.py	/^    groupsend = None$/;"	v	class:Terminator
+groupsend_type	terminator.py	/^    groupsend_type = {'all':0, 'group':1, 'off':2}$/;"	v	class:Terminator
+handle	debugserver.py	/^  def handle(self):$/;"	m	class:PythonConsoleServer
+handler	tests/testsignalman.py	/^def handler():$/;"	f
+handler_name	plugin.py	/^    handler_name = None$/;"	v	class:URLHandler
+handler_name	plugins/maven.py	/^    handler_name = 'maven_plugin'$/;"	v	class:MavenPluginURLHandler
+handler_name	plugins/url_handlers.py	/^    handler_name = 'apturl'$/;"	v	class:APTURLHandler
+handler_name	plugins/url_handlers.py	/^    handler_name = 'launchpad_bug'$/;"	v	class:LaunchpadBugURLHandler
+handler_name	plugins/url_handlers.py	/^    handler_name = 'launchpad_code'$/;"	v	class:LaunchpadCodeURLHandler
+has_ancestor	util.py	/^def has_ancestor(widget, wtype):$/;"	f
+hidebound	window.py	/^    hidebound = None$/;"	v	class:Window
+hidefunc	window.py	/^    hidefunc = None$/;"	v	class:Window
+hoover	container.py	/^    def hoover(self):$/;"	m	class:Container
+hoover	notebook.py	/^    def hoover(self):$/;"	m	class:Notebook
+hoover	paned.py	/^    def hoover(self):$/;"	m	class:Paned
+hoover	window.py	/^    def hoover(self):$/;"	m	class:Window
+icon	notebook.py	/^    icon = None$/;"	v	class:TabLabel
+icon_bell	titlebar.py	/^    def icon_bell(self):$/;"	m	class:Titlebar
+icon_bell_hide	titlebar.py	/^    def icon_bell_hide(self):$/;"	m	class:Titlebar
+ignore_startup_show	window.py	/^    ignore_startup_show = None$/;"	v	class:Window
+immutable	container.py	/^    immutable = None$/;"	v	class:Container
+inhibit_save	config.py	/^    def inhibit_save(self):$/;"	m	class:Config
+inhibited	config.py	/^    inhibited = None$/;"	v	class:Config
+instance_types	factory.py	/^    instance_types = {}$/;"	v	class:Factory
+instance_types_keys	factory.py	/^    instance_types_keys = []$/;"	v	class:Factory
+instances	plugin.py	/^    instances = None$/;"	v	class:PluginRegistry
+interpolate	configobj/configobj.py	/^    def interpolate(self, key, value):$/;"	m	class:InterpolationEngine
+interpolation_engines	configobj/configobj.py	/^interpolation_engines = {$/;"	v
+is_bool_list	configobj/validate.py	/^def is_bool_list(value, min=None, max=None):$/;"	f
+is_boolean	configobj/validate.py	/^def is_boolean(value):$/;"	f
+is_child_notebook	window.py	/^    def is_child_notebook(self):$/;"	m	class:Window
+is_custom	editablelabel.py	/^    def is_custom(self):$/;"	m	class:EditableLabel
+is_enabled	plugin.py	/^    def is_enabled(self, plugin):$/;"	m	class:PluginRegistry
+is_float	configobj/validate.py	/^def is_float(value, min=None, max=None):$/;"	f
+is_float_list	configobj/validate.py	/^def is_float_list(value, min=None, max=None):$/;"	f
+is_int_list	configobj/validate.py	/^def is_int_list(value, min=None, max=None):$/;"	f
+is_integer	configobj/validate.py	/^def is_integer(value, min=None, max=None):$/;"	f
+is_ip_addr	configobj/validate.py	/^def is_ip_addr(value):$/;"	f
+is_ip_addr_list	configobj/validate.py	/^def is_ip_addr_list(value, min=None, max=None):$/;"	f
+is_list	configobj/validate.py	/^def is_list(value, min=None, max=None):$/;"	f
+is_mixed_list	configobj/validate.py	/^def is_mixed_list(value, *args):$/;"	f
+is_option	configobj/validate.py	/^def is_option(value, *options):$/;"	f
+is_string	configobj/validate.py	/^def is_string(value, min=None, max=None):$/;"	f
+is_string_list	configobj/validate.py	/^def is_string_list(value, min=None, max=None):$/;"	f
+is_tuple	configobj/validate.py	/^def is_tuple(value, min=None, max=None):$/;"	f
+is_zoomed	terminal.py	/^    def is_zoomed(self):$/;"	m	class:Terminal
+isfullscreen	window.py	/^    isfullscreen = None$/;"	v	class:Window
+isinstance	factory.py	/^    def isinstance(self, product, classtype):$/;"	m	class:Factory
+ismaximised	window.py	/^    ismaximised = None$/;"	v	class:Window
+items	configobj/configobj.py	/^    def items(self):$/;"	m	class:Section
+iteritems	configobj/configobj.py	/^    def iteritems(self):$/;"	m	class:Section
+iterkeys	configobj/configobj.py	/^    def iterkeys(self):$/;"	m	class:Section
+itervalues	configobj/configobj.py	/^    def itervalues(self):$/;"	m	class:Section
+key_broadcast_all	terminal.py	/^    def key_broadcast_all(self):$/;"	m	class:Terminal
+key_broadcast_group	terminal.py	/^    def key_broadcast_group(self):$/;"	m	class:Terminal
+key_broadcast_off	terminal.py	/^    def key_broadcast_off(self):$/;"	m	class:Terminal
+key_close_term	terminal.py	/^    def key_close_term(self):$/;"	m	class:Terminal
+key_copy	terminal.py	/^    def key_copy(self):$/;"	m	class:Terminal
+key_cycle_next	terminal.py	/^    def key_cycle_next(self):$/;"	m	class:Terminal
+key_cycle_prev	terminal.py	/^    def key_cycle_prev(self):$/;"	m	class:Terminal
+key_go_down	terminal.py	/^    def key_go_down(self):$/;"	m	class:Terminal
+key_go_left	terminal.py	/^    def key_go_left(self):$/;"	m	class:Terminal
+key_go_next	terminal.py	/^    def key_go_next(self):$/;"	m	class:Terminal
+key_go_prev	terminal.py	/^    def key_go_prev(self):$/;"	m	class:Terminal
+key_go_right	terminal.py	/^    def key_go_right(self):$/;"	m	class:Terminal
+key_go_up	terminal.py	/^    def key_go_up(self):$/;"	m	class:Terminal
+key_group_all	terminal.py	/^    def key_group_all(self):$/;"	m	class:Terminal
+key_group_tab	terminal.py	/^    def key_group_tab(self):$/;"	m	class:Terminal
+key_move_tab_left	terminal.py	/^    def key_move_tab_left(self):$/;"	m	class:Terminal
+key_move_tab_right	terminal.py	/^    def key_move_tab_right(self):$/;"	m	class:Terminal
+key_new_terminator	terminal.py	/^    def key_new_terminator(self):$/;"	m	class:Terminal
+key_new_window	terminal.py	/^    def key_new_window(self):$/;"	m	class:Terminal
+key_next_tab	terminal.py	/^    def key_next_tab(self):$/;"	m	class:Terminal
+key_paste	terminal.py	/^    def key_paste(self):$/;"	m	class:Terminal
+key_prev_tab	terminal.py	/^    def key_prev_tab(self):$/;"	m	class:Terminal
+key_reset	terminal.py	/^    def key_reset(self):$/;"	m	class:Terminal
+key_reset_clear	terminal.py	/^    def key_reset_clear(self):$/;"	m	class:Terminal
+key_resize_down	terminal.py	/^    def key_resize_down(self):$/;"	m	class:Terminal
+key_resize_left	terminal.py	/^    def key_resize_left(self):$/;"	m	class:Terminal
+key_resize_right	terminal.py	/^    def key_resize_right(self):$/;"	m	class:Terminal
+key_resize_up	terminal.py	/^    def key_resize_up(self):$/;"	m	class:Terminal
+key_scaled_zoom	terminal.py	/^    def key_scaled_zoom(self):$/;"	m	class:Terminal
+key_search	terminal.py	/^    def key_search(self):$/;"	m	class:Terminal
+key_split_horiz	terminal.py	/^    def key_split_horiz(self):$/;"	m	class:Terminal
+key_split_vert	terminal.py	/^    def key_split_vert(self):$/;"	m	class:Terminal
+key_switch_to_tab_1	terminal.py	/^    def key_switch_to_tab_1(self):$/;"	m	class:Terminal
+key_switch_to_tab_10	terminal.py	/^    def key_switch_to_tab_10(self):$/;"	m	class:Terminal
+key_switch_to_tab_2	terminal.py	/^    def key_switch_to_tab_2(self):$/;"	m	class:Terminal
+key_switch_to_tab_3	terminal.py	/^    def key_switch_to_tab_3(self):$/;"	m	class:Terminal
+key_switch_to_tab_4	terminal.py	/^    def key_switch_to_tab_4(self):$/;"	m	class:Terminal
+key_switch_to_tab_5	terminal.py	/^    def key_switch_to_tab_5(self):$/;"	m	class:Terminal
+key_switch_to_tab_6	terminal.py	/^    def key_switch_to_tab_6(self):$/;"	m	class:Terminal
+key_switch_to_tab_7	terminal.py	/^    def key_switch_to_tab_7(self):$/;"	m	class:Terminal
+key_switch_to_tab_8	terminal.py	/^    def key_switch_to_tab_8(self):$/;"	m	class:Terminal
+key_switch_to_tab_9	terminal.py	/^    def key_switch_to_tab_9(self):$/;"	m	class:Terminal
+key_toggle_scrollbar	terminal.py	/^    def key_toggle_scrollbar(self):$/;"	m	class:Terminal
+key_toggle_zoom	terminal.py	/^    def key_toggle_zoom(self):$/;"	m	class:Terminal
+key_ungroup_all	terminal.py	/^    def key_ungroup_all(self):$/;"	m	class:Terminal
+key_ungroup_tab	terminal.py	/^    def key_ungroup_tab(self):$/;"	m	class:Terminal
+key_zoom_in	terminal.py	/^    def key_zoom_in(self):$/;"	m	class:Terminal
+key_zoom_normal	terminal.py	/^    def key_zoom_normal(self):$/;"	m	class:Terminal
+key_zoom_out	terminal.py	/^    def key_zoom_out(self):$/;"	m	class:Terminal
+keybindings	config.py	/^    keybindings = None$/;"	v	class:ConfigBase
+keybindings	prefseditor.py	/^    keybindings = None$/;"	v	class:PrefsEditor
+keybindings	terminator.py	/^    keybindings = None$/;"	v	class:Terminator
+keys	configobj/configobj.py	/^    def keys(self):$/;"	m	class:Section
+keys	keybindings.py	/^    keys = None$/;"	v	class:Keybindings
+kinfo_file	freebsd.py	/^class kinfo_file(Structure):$/;"	c
+label	notebook.py	/^    label = None$/;"	v	class:TabLabel
+label	titlebar.py	/^    label = None$/;"	v	class:Titlebar
+last_activities	plugins/activitywatch.py	/^    last_activities = None$/;"	v	class:InactivityWatch
+last_notifies	plugins/activitywatch.py	/^    last_notifies = None$/;"	v	class:ActivityWatch
+layout_command	terminal.py	/^    layout_command = None$/;"	v	class:Terminal
+layout_done	terminator.py	/^    def layout_done(self):$/;"	m	class:Terminator
+layout_get_config	config.py	/^    def layout_get_config(self, layout):$/;"	m	class:Config
+layout_item	prefseditor.py	/^    layout_item = None$/;"	v	class:LayoutEditor
+layout_name	prefseditor.py	/^    layout_name = None$/;"	v	class:LayoutEditor
+layout_set_config	config.py	/^    def layout_set_config(self, layout, tree):$/;"	m	class:Config
+layouteditor	prefseditor.py	/^    layouteditor = None$/;"	v	class:PrefsEditor
+layouts	config.py	/^    layouts = None$/;"	v	class:ConfigBase
+libc	freebsd.py	/^libc = CDLL('libc.so')$/;"	v
+linux_get_pid_cwd	cwd.py	/^def linux_get_pid_cwd(pid):$/;"	f
+list_layouts	config.py	/^    def list_layouts(self):$/;"	m	class:Config
+list_profiles	config.py	/^    def list_profiles(self):$/;"	m	class:Config
+load	config.py	/^    def load(self):$/;"	m	class:ConfigBase
+load_plugins	plugin.py	/^    def load_plugins(self, testing=False):$/;"	m	class:PluginRegistry
+loaded	config.py	/^    loaded = None$/;"	v	class:ConfigBase
+lookup	keybindings.py	/^    def lookup(self, event):$/;"	m	class:Keybindings
+losefocus_time	window.py	/^    losefocus_time = 0$/;"	v	class:Window
+lpfilters	plugins/url_handlers.py	/^    lpfilters = {}$/;"	v	class:LaunchpadCodeURLHandler
+make	factory.py	/^    def make(self, product, **kwargs):$/;"	m	class:Factory
+make_hpaned	factory.py	/^    def make_hpaned(self, **kwargs):$/;"	m	class:Factory
+make_notebook	factory.py	/^    def make_notebook(self, **kwargs):$/;"	m	class:Factory
+make_terminal	factory.py	/^    def make_terminal(self, **kwargs):$/;"	m	class:Factory
+make_vpaned	factory.py	/^    def make_vpaned(self, **kwargs):$/;"	m	class:Factory
+make_window	factory.py	/^    def make_window(self, **kwargs):$/;"	m	class:Factory
+maker	paned.py	/^    maker = None$/;"	v	class:Paned
+match	plugin.py	/^    match = None$/;"	v	class:URLHandler
+match	plugins/maven.py	/^    match = '\\\\b%(maven_plugin)s\\\\b' % maven_filters$/;"	v	class:MavenPluginURLHandler
+match	plugins/url_handlers.py	/^    match = '\\\\b((lp|LP):%(project)s(\/%(series)s)?|(lp|LP):%(group)s\/(%(project)s|\\+junk)\/%(branch)s)\\\\b' % lpfilters$/;"	v	class:LaunchpadCodeURLHandler
+match	plugins/url_handlers.py	/^    match = '\\\\b(lp|LP):?\\s?#?[0-9]+(,\\s*#?[0-9]+)*\\\\b'$/;"	v	class:LaunchpadBugURLHandler
+match	plugins/url_handlers.py	/^    match = '\\\\bapt:.*\\\\b'$/;"	v	class:APTURLHandler
+match_add	terminal.py	/^    def match_add(self, name, match):$/;"	m	class:Terminal
+match_remove	terminal.py	/^    def match_remove(self, name):$/;"	m	class:Terminal
+match_utf8	configobj/configobj.py	/^def match_utf8(encoding):$/;"	f
+matches	terminal.py	/^    matches = None$/;"	v	class:Terminal
+maven_filters	plugins/maven.py	/^    maven_filters = {}$/;"	v	class:MavenPluginURLHandler
+maximise	terminal.py	/^    def maximise(self, widget=None):$/;"	m	class:Terminal
+merge	configobj/configobj.py	/^    def merge(self, indict):$/;"	m	class:Section
+modifiers	keybindings.py	/^    modifiers = {$/;"	v	class:Keybindings
+modify_fg	editablelabel.py	/^    def modify_fg(self, state, color):$/;"	m	class:EditableLabel
+move_tab	window.py	/^    def move_tab(self, widget, direction):$/;"	m	class:Window
+navigate_terminal	window.py	/^    def navigate_terminal(self, terminal, direction):$/;"	m	class:Window
+new	signalman.py	/^    def new(self, widget, signal, handler, *args):$/;"	m	class:Signalman
+new_window	ipc.py	/^    def new_window(self, layout='default'):$/;"	m	class:DBusService
+new_window	ipc.py	/^def new_window(session, layout='default'):$/;"	f
+new_window	terminator.py	/^    def new_window(self, cwd=None):$/;"	m	class:Terminator
+newtab	notebook.py	/^    def newtab(self, debugtab=False, widget=None, cwd=None, metadata=None):$/;"	m	class:Notebook
+next	searchbar.py	/^    next = None$/;"	v	class:Searchbar
+next_search	searchbar.py	/^    def next_search(self, widget):$/;"	m	class:Searchbar
+noquot	configobj/configobj.py	/^noquot = "%s"$/;"	v
+notebook	notebook.py	/^    notebook = None$/;"	v	class:TabLabel
+notify	plugins/activitywatch.py	/^    def notify(self, _vte, terminal):$/;"	m	class:ActivityWatch
+numToDottedQuad	configobj/validate.py	/^def numToDottedQuad(num):$/;"	f
+oldtitle	titlebar.py	/^    oldtitle = None$/;"	v	class:Titlebar
+on_allow_bold_checkbutton_toggled	prefseditor.py	/^    def on_allow_bold_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_alternate_screen_scroll_checkbutton_toggled	prefseditor.py	/^    def on_alternate_screen_scroll_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_alwaysontopcheck_toggled	prefseditor.py	/^    def on_alwaysontopcheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_antialias_checkbutton_toggled	prefseditor.py	/^    def on_antialias_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_audible_bell_checkbutton_toggled	prefseditor.py	/^    def on_audible_bell_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_background_colorpicker_color_set	prefseditor.py	/^    def on_background_colorpicker_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_background_image_filechooser_file_set	prefseditor.py	/^    def on_background_image_filechooser_file_set(self, widget):$/;"	m	class:PrefsEditor
+on_background_type_toggled	prefseditor.py	/^    def on_background_type_toggled(self, _widget):$/;"	m	class:PrefsEditor
+on_backspace_binding_combobox_changed	prefseditor.py	/^    def on_backspace_binding_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_beep	terminal.py	/^    def on_beep(self, widget):$/;"	m	class:Terminal
+on_button_press	window.py	/^    def on_button_press(self, window, event):$/;"	m	class:Window
+on_buttonpress	terminal.py	/^    def on_buttonpress(self, widget, event):$/;"	m	class:Terminal
+on_cellrenderer_accel_cleared	prefseditor.py	/^    def on_cellrenderer_accel_cleared(self, liststore, path):$/;"	m	class:PrefsEditor
+on_cellrenderer_accel_edited	prefseditor.py	/^    def on_cellrenderer_accel_edited(self, liststore, path, key, mods, _code):$/;"	m	class:PrefsEditor
+on_clicked	titlebar.py	/^    def on_clicked(self, widget, event):$/;"	m	class:Titlebar
+on_close	notebook.py	/^    def on_close(self, _widget):$/;"	m	class:TabLabel
+on_closebutton_clicked	prefseditor.py	/^    def on_closebutton_clicked(self, _button):$/;"	m	class:PrefsEditor
+on_color_scheme_combobox_changed	prefseditor.py	/^    def on_color_scheme_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_copy_on_selection_toggled	prefseditor.py	/^    def on_copy_on_selection_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_cursor_blink_toggled	prefseditor.py	/^    def on_cursor_blink_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_cursor_color_color_set	prefseditor.py	/^    def on_cursor_color_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_cursor_shape_combobox_changed	prefseditor.py	/^    def on_cursor_shape_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_custom_command_entry_changed	prefseditor.py	/^    def on_custom_command_entry_changed(self, widget):$/;"	m	class:PrefsEditor
+on_darken_background_scale_change_value	prefseditor.py	/^    def on_darken_background_scale_change_value(self, widget, scroll, value):$/;"	m	class:PrefsEditor
+on_dbuscheck_toggled	prefseditor.py	/^    def on_dbuscheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_delete	plugins/custom_commands.py	/^    def on_delete(self, button, data):$/;"	m	class:CustomCommandsMenu
+on_delete_binding_combobox_changed	prefseditor.py	/^    def on_delete_binding_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_delete_event	window.py	/^    def on_delete_event(self, window, event, data=None):$/;"	m	class:Window
+on_destroy_event	window.py	/^    def on_destroy_event(self, widget, data=None):$/;"	m	class:Window
+on_drag_begin	terminal.py	/^    def on_drag_begin(self, widget, drag_context, _data):$/;"	m	class:Terminal
+on_drag_data_get	terminal.py	/^    def on_drag_data_get(self, _widget, _drag_context, selection_data, info, $/;"	m	class:Terminal
+on_drag_data_received	terminal.py	/^    def on_drag_data_received(self, widget, drag_context, x, y, selection_data,$/;"	m	class:Terminal
+on_drag_motion	terminal.py	/^    def on_drag_motion(self, widget, drag_context, x, y, _time, _data):$/;"	m	class:Terminal
+on_edit	plugins/custom_commands.py	/^    def on_edit(self, button, data):$/;"	m	class:CustomCommandsMenu
+on_edit_done	terminal.py	/^    def on_edit_done(self, _widget):$/;"	m	class:Terminal
+on_edit_done	titlebar.py	/^    def on_edit_done(self, widget):$/;"	m	class:Titlebar
+on_encoding_change	terminal.py	/^    def on_encoding_change(self, _widget, encoding):$/;"	m	class:Terminal
+on_encoding_combobox_changed	prefseditor.py	/^    def on_encoding_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_exit_action_combobox_changed	prefseditor.py	/^    def on_exit_action_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_expose_event	terminal.py	/^    def on_expose_event(self, widget, _event):$/;"	m	class:Terminal
+on_focus_in	window.py	/^    def on_focus_in(self, window, event):$/;"	m	class:Window
+on_focus_out	window.py	/^    def on_focus_out(self, window, event):$/;"	m	class:Window
+on_focuscombo_changed	prefseditor.py	/^    def on_focuscombo_changed(self, widget):$/;"	m	class:PrefsEditor
+on_font_selector_font_set	prefseditor.py	/^    def on_font_selector_font_set(self, widget):$/;"	m	class:PrefsEditor
+on_foreground_colorpicker_color_set	prefseditor.py	/^    def on_foreground_colorpicker_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_gconf_notify	config.py	/^    def on_gconf_notify(self, _client, _cnxn_id, _entry, _what):$/;"	m	class:Config
+on_go_down	plugins/custom_commands.py	/^    def on_go_down(self, button, data):$/;"	m	class:CustomCommandsMenu
+on_go_up	plugins/custom_commands.py	/^    def on_go_up(self, button, data):$/;"	m	class:CustomCommandsMenu
+on_goto_last	plugins/custom_commands.py	/^    def on_goto_last(self, button, data):$/;"	m	class:CustomCommandsMenu
+on_goto_top	plugins/custom_commands.py	/^    def on_goto_top(self, button, data):$/;"	m	class:CustomCommandsMenu
+on_group_button_press	terminal.py	/^    def on_group_button_press(self, widget, event):$/;"	m	class:Terminal
+on_handlesize_change_value	prefseditor.py	/^    def on_handlesize_change_value(self, widget, scroll, value):$/;"	m	class:PrefsEditor
+on_hide_window	window.py	/^    def on_hide_window(self, data=None):$/;"	m	class:Window
+on_hidefromtaskbcheck_toggled	prefseditor.py	/^    def on_hidefromtaskbcheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_hideonlosefocuscheck_toggled	prefseditor.py	/^    def on_hideonlosefocuscheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_icon_bell_checkbutton_toggled	prefseditor.py	/^    def on_icon_bell_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_key_press	window.py	/^    def on_key_press(self, window, event):$/;"	m	class:Window
+on_keypress	terminal.py	/^    def on_keypress(self, widget, event):$/;"	m	class:Terminal
+on_layout_item_selection_changed	prefseditor.py	/^    def on_layout_item_selection_changed(self, selection):$/;"	m	class:LayoutEditor
+on_layout_item_selection_changed	prefseditor.py	/^    def on_layout_item_selection_changed(self, selection):$/;"	m	class:PrefsEditor
+on_layout_name_edited	prefseditor.py	/^    def on_layout_name_edited(self, cell, path, newtext):$/;"	m	class:PrefsEditor
+on_layout_profile_chooser_changed	prefseditor.py	/^    def on_layout_profile_chooser_changed(self, widget):$/;"	m	class:LayoutEditor
+on_layout_profile_chooser_changed	prefseditor.py	/^    def on_layout_profile_chooser_changed(self, widget):$/;"	m	class:PrefsEditor
+on_layout_profile_command_activate	prefseditor.py	/^    def on_layout_profile_command_activate(self, widget):$/;"	m	class:LayoutEditor
+on_layout_profile_command_changed	prefseditor.py	/^    def on_layout_profile_command_changed(self, widget):$/;"	m	class:PrefsEditor
+on_layout_selection_changed	prefseditor.py	/^    def on_layout_selection_changed(self, selection):$/;"	m	class:LayoutEditor
+on_layout_selection_changed	prefseditor.py	/^    def on_layout_selection_changed(self, selection):$/;"	m	class:PrefsEditor
+on_layoutaddbutton_clicked	prefseditor.py	/^    def on_layoutaddbutton_clicked(self, _button):$/;"	m	class:PrefsEditor
+on_layoutremovebutton_clicked	prefseditor.py	/^    def on_layoutremovebutton_clicked(self, _button):$/;"	m	class:PrefsEditor
+on_login_shell_checkbutton_toggled	prefseditor.py	/^    def on_login_shell_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_new	plugins/custom_commands.py	/^    def on_new(self, button, data):$/;"	m	class:CustomCommandsMenu
+on_palette_colorpicker_color_set	prefseditor.py	/^    def on_palette_colorpicker_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_palette_combobox_changed	prefseditor.py	/^    def on_palette_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_plugin_selection_changed	prefseditor.py	/^    def on_plugin_selection_changed(self, selection):$/;"	m	class:PrefsEditor
+on_plugin_toggled	prefseditor.py	/^    def on_plugin_toggled(self, cell, path):$/;"	m	class:PrefsEditor
+on_profile_name_edited	prefseditor.py	/^    def on_profile_name_edited(self, cell, path, newtext):$/;"	m	class:PrefsEditor
+on_profile_selection_changed	prefseditor.py	/^    def on_profile_selection_changed(self, selection):$/;"	m	class:PrefsEditor
+on_profileaddbutton_clicked	prefseditor.py	/^    def on_profileaddbutton_clicked(self, _button):$/;"	m	class:PrefsEditor
+on_profileremovebutton_clicked	prefseditor.py	/^    def on_profileremovebutton_clicked(self, _button):$/;"	m	class:PrefsEditor
+on_reset_compatibility_clicked	prefseditor.py	/^    def on_reset_compatibility_clicked(self, widget):$/;"	m	class:PrefsEditor
+on_scroll_background_checkbutton_toggled	prefseditor.py	/^    def on_scroll_background_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_scroll_on_keystroke_checkbutton_toggled	prefseditor.py	/^    def on_scroll_on_keystroke_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_scroll_on_output_checkbutton_toggled	prefseditor.py	/^    def on_scroll_on_output_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_scrollback_infinite_toggled	prefseditor.py	/^    def on_scrollback_infinite_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_scrollback_lines_spinbutton_value_changed	prefseditor.py	/^    def on_scrollback_lines_spinbutton_value_changed(self, widget):$/;"	m	class:PrefsEditor
+on_scrollbar_position_combobox_changed	prefseditor.py	/^    def on_scrollbar_position_combobox_changed(self, widget):$/;"	m	class:PrefsEditor
+on_search_done	terminal.py	/^    def on_search_done(self, _widget):$/;"	m	class:Terminal
+on_selection_changed	plugins/custom_commands.py	/^    def on_selection_changed(self,selection, data=None):$/;"	m	class:CustomCommandsMenu
+on_show_titlebar_toggled	prefseditor.py	/^    def on_show_titlebar_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_stickycheck_toggled	prefseditor.py	/^    def on_stickycheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_system_font_checkbutton_toggled	prefseditor.py	/^    def on_system_font_checkbutton_toggled(self, checkbox):$/;"	m	class:PrefsEditor
+on_tabposcombo_changed	prefseditor.py	/^    def on_tabposcombo_changed(self, widget):$/;"	m	class:PrefsEditor
+on_title_hide_sizetextcheck_toggled	prefseditor.py	/^    def on_title_hide_sizetextcheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_title_inactive_bg_color_color_set	prefseditor.py	/^    def on_title_inactive_bg_color_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_title_inactive_fg_color_color_set	prefseditor.py	/^    def on_title_inactive_fg_color_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_title_receive_bg_color_color_set	prefseditor.py	/^    def on_title_receive_bg_color_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_title_receive_fg_color_color_set	prefseditor.py	/^    def on_title_receive_fg_color_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_title_transmit_bg_color_color_set	prefseditor.py	/^    def on_title_transmit_bg_color_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_title_transmit_fg_color_color_set	prefseditor.py	/^    def on_title_transmit_fg_color_color_set(self, widget):$/;"	m	class:PrefsEditor
+on_toggled	plugins/custom_commands.py	/^    def on_toggled(self, widget, path, data):$/;"	m	class:CustomCommandsMenu
+on_update_records_checkbutton_toggled	prefseditor.py	/^    def on_update_records_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_urgent_bell_checkbutton_toggled	prefseditor.py	/^    def on_urgent_bell_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_use_custom_command_checkbutton_toggled	prefseditor.py	/^    def on_use_custom_command_checkbutton_toggled(self, checkbox):$/;"	m	class:PrefsEditor
+on_use_theme_colors_checkbutton_toggled	prefseditor.py	/^    def on_use_theme_colors_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_visual_bell_checkbutton_toggled	prefseditor.py	/^    def on_visual_bell_checkbutton_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_vte_focus	terminal.py	/^    def on_vte_focus(self, _widget):$/;"	m	class:Terminal
+on_vte_focus_in	terminal.py	/^    def on_vte_focus_in(self, _widget, _event):$/;"	m	class:Terminal
+on_vte_notify_enter	terminal.py	/^    def on_vte_notify_enter(self, term, event):$/;"	m	class:Terminal
+on_vte_size_allocate	terminal.py	/^    def on_vte_size_allocate(self, widget, allocation):$/;"	m	class:Terminal
+on_winbordercheck_toggled	prefseditor.py	/^    def on_winbordercheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_window_focus_out	terminal.py	/^    def on_window_focus_out(self):$/;"	m	class:Terminal
+on_window_state_changed	window.py	/^    def on_window_state_changed(self, window, event):$/;"	m	class:Window
+on_wingeomcheck_toggled	prefseditor.py	/^    def on_wingeomcheck_toggled(self, widget):$/;"	m	class:PrefsEditor
+on_winstatecombo_changed	prefseditor.py	/^    def on_winstatecombo_changed(self, widget):$/;"	m	class:PrefsEditor
+on_word_chars_entry_changed	prefseditor.py	/^    def on_word_chars_entry_changed(self, widget):$/;"	m	class:PrefsEditor
+open_url	terminal.py	/^    def open_url(self, url, prepare=False):$/;"	m	class:Terminal
+options_get	config.py	/^    def options_get(self):$/;"	m	class:Config
+options_set	config.py	/^    def options_set(self, options):$/;"	m	class:Config
+origcwd	terminal.py	/^    origcwd = None$/;"	v	class:Terminal
+origcwd	terminator.py	/^    origcwd = None$/;"	v	class:Terminator
+palettes	prefseditor.py	/^    keybindingnames = { 'zoom_in'          : 'Increase font size',$/;"	v	class:PrefsEditor
+palettevalues	prefseditor.py	/^    palettevalues = {'tango': 0,$/;"	v	class:PrefsEditor
+parse_options	optionparse.py	/^def parse_options():$/;"	f
+parse_telnet	debugserver.py	/^  def parse_telnet(self, data):$/;"	m	class:TerminatorConsole
+paste_clipboard	terminal.py	/^    def paste_clipboard(self, primary=False):$/;"	m	class:Terminal
+path	plugin.py	/^    path = None$/;"	v	class:PluginRegistry
+path_lookup	util.py	/^def path_lookup(command):$/;"	f
+pid	freebsd.py	/^      pid = int(pid)$/;"	v
+pid	terminal.py	/^    pid = None$/;"	v	class:Terminal
+pid_cwd	terminator.py	/^    pid_cwd = None$/;"	v	class:Terminator
+plugin_get	config.py	/^    def plugin_get(self, pluginname, key):$/;"	m	class:Config
+plugin_get_config	config.py	/^    def plugin_get_config(self, plugin):$/;"	m	class:Config
+plugin_set	config.py	/^    def plugin_set(self, pluginname, key, value):$/;"	m	class:Config
+plugin_set_config	config.py	/^    def plugin_set_config(self, plugin, tree):$/;"	m	class:Config
+plugins	config.py	/^    plugins = None$/;"	v	class:ConfigBase
+plugins	prefseditor.py	/^    plugins = None$/;"	v	class:PrefsEditor
+pop	configobj/configobj.py	/^    def pop(self, key, default=MISSING):$/;"	m	class:Section
+popitem	configobj/configobj.py	/^    def popitem(self):$/;"	m	class:Section
+populate_group_menu	terminal.py	/^    def populate_group_menu(self):$/;"	m	class:Terminal
+popup_menu	terminal.py	/^    def popup_menu(self, widget, event=None):$/;"	m	class:Terminal
+position	paned.py	/^    position = None$/;"	v	class:Paned
+position	window.py	/^    position = None$/;"	v	class:Window
+position_popup_group_menu	terminal.py	/^    def position_popup_group_menu(self, menu, widget):$/;"	m	class:Terminal
+prepare	prefseditor.py	/^    def prepare(self, layout=None):$/;"	m	class:LayoutEditor
+prepare_attributes	borg.py	/^    def prepare_attributes(self):$/;"	m	class:Borg
+prepare_attributes	config.py	/^    def prepare_attributes(self):$/;"	m	class:ConfigBase
+prepare_attributes	factory.py	/^    def prepare_attributes(self):$/;"	m	class:Factory
+prepare_attributes	ipc.py	/^    def prepare_attributes(self):$/;"	m	class:DBusService
+prepare_attributes	plugin.py	/^    def prepare_attributes(self):$/;"	m	class:PluginRegistry
+prepare_attributes	terminator.py	/^    def prepare_attributes(self):$/;"	m	class:Terminator
+prepare_attributes	tests/testborg.py	/^    def prepare_attributes(self):$/;"	m	class:TestBorg
+prepare_attributes	tests/testborg.py	/^    def prepare_attributes(self):$/;"	m	class:TestBorg2
+prepare_url	terminal.py	/^    def prepare_url(self, urlmatch):$/;"	m	class:Terminal
+prev	searchbar.py	/^    prev = None$/;"	v	class:Searchbar
+prev_search	searchbar.py	/^    def prev_search(self, widget):$/;"	m	class:Searchbar
+previous_layout_selection	prefseditor.py	/^    previous_layout_selection = None$/;"	v	class:PrefsEditor
+previous_profile_selection	prefseditor.py	/^    previous_profile_selection = None$/;"	v	class:PrefsEditor
+proc_get_pid_cwd	cwd.py	/^def proc_get_pid_cwd(pid, path):$/;"	f
+profile	config.py	/^    profile = None$/;"	v	class:Config
+profile_ids_to_profile	prefseditor.py	/^    profile_ids_to_profile = None$/;"	v	class:LayoutEditor
+profile_profile_to_ids	prefseditor.py	/^    profile_profile_to_ids = None$/;"	v	class:LayoutEditor
+profiles	config.py	/^    profiles = None$/;"	v	class:ConfigBase
+propagate_title_change	container.py	/^    def propagate_title_change(self, widget, title):$/;"	m	class:Container
+raw_input	debugserver.py	/^  def raw_input(self, prompt = None):$/;"	m	class:TerminatorConsole
+really_create_group	terminal.py	/^    def really_create_group(self, _widget, groupname):$/;"	m	class:Terminal
+reconfigure	terminal.py	/^    def reconfigure(self, _widget=None):$/;"	m	class:Terminal
+reconfigure	terminator.py	/^    def reconfigure(self):$/;"	m	class:Terminator
+recursive_interpolate	configobj/configobj.py	/^        def recursive_interpolate(key, value, section, backtrail):$/;"	f	function:InterpolationEngine.interpolate
+register_callbacks	window.py	/^    def register_callbacks(self):$/;"	m	class:Window
+register_signals	container.py	/^    def register_signals(self, widget):$/;"	m	class:Container
+register_terminal	terminator.py	/^    def register_terminal(self, terminal):$/;"	m	class:Terminator
+register_window	terminator.py	/^    def register_window(self, window):$/;"	m	class:Terminator
+registry	prefseditor.py	/^    registry = None$/;"	v	class:PrefsEditor
+reload	configobj/configobj.py	/^    def reload(self):$/;"	m	class:ConfigObj
+reload	keybindings.py	/^    def reload(self):$/;"	m	class:Keybindings
+remove	container.py	/^    def remove(self, widget):$/;"	m	class:Container
+remove	notebook.py	/^    def remove(self, widget):$/;"	m	class:Notebook
+remove	paned.py	/^    def remove(self, widget):$/;"	m	class:Paned
+remove	window.py	/^    def remove(self, widget):$/;"	m	class:Window
+remove_all	signalman.py	/^    def remove_all(self):$/;"	m	class:Signalman
+remove_signal	signalman.py	/^    def remove_signal(self, widget, signal):$/;"	m	class:Signalman
+remove_widget	signalman.py	/^    def remove_widget(self, widget):$/;"	m	class:Signalman
+rename	configobj/configobj.py	/^    def rename(self, oldkey, newkey):$/;"	m	class:Section
+rename_layout	config.py	/^    def rename_layout(self, layout, newname):$/;"	m	class:Config
+rename_profile	config.py	/^    def rename_profile(self, profile, newname):$/;"	m	class:Config
+replace	container.py	/^    def replace(self, oldwidget, newwidget):$/;"	m	class:Container
+replace	notebook.py	/^    def replace(self, oldwidget, newwidget):$/;"	m	class:Notebook
+reset	configobj/configobj.py	/^    def reset(self):$/;"	m	class:ConfigObj
+reset_timer	plugins/activitywatch.py	/^    def reset_timer(self, _vte, terminal):$/;"	m	class:InactivityWatch
+resizeterm	container.py	/^    def resizeterm(self, widget, keyname):$/;"	m	class:Container
+resizeterm	notebook.py	/^    def resizeterm(self, widget, keyname):$/;"	m	class:Notebook
+resizeterm	paned.py	/^    def resizeterm(self, widget, keyname):$/;"	m	class:Paned
+reslabel	searchbar.py	/^    reslabel = None$/;"	v	class:Searchbar
+restore_default	configobj/configobj.py	/^    def restore_default(self, key):$/;"	m	class:Section
+restore_defaults	configobj/configobj.py	/^    def restore_defaults(self):$/;"	m	class:Section
+run	debugserver.py	/^  def run(self, server):$/;"	m	class:TerminatorConsole
+save	config.py	/^    def save(self):$/;"	m	class:Config
+save	config.py	/^    def save(self):$/;"	m	class:ConfigBase
+save_yourself	terminator.py	/^    def save_yourself(self, *args):$/;"	m	class:Terminator
+scrollbar	terminal.py	/^    scrollbar = None$/;"	v	class:Terminal
+scrollbar_jump	terminal.py	/^    def scrollbar_jump(self, position):$/;"	m	class:Terminal
+scrollbar_position	terminal.py	/^    scrollbar_position = None$/;"	v	class:Terminal
+search_character	searchbar.py	/^    def search_character(self, widget, col, row, junk):$/;"	m	class:Searchbar
+search_hit	searchbar.py	/^    def search_hit(self, row):$/;"	m	class:Searchbar
+search_keypress	searchbar.py	/^    def search_keypress(self, widget, event):$/;"	m	class:Searchbar
+searchbar	terminal.py	/^    searchbar = None$/;"	v	class:Terminal
+searchits	searchbar.py	/^    searchits = None$/;"	v	class:Searchbar
+searchre	searchbar.py	/^    searchre = None$/;"	v	class:Searchbar
+searchrow	searchbar.py	/^    searchrow = None$/;"	v	class:Searchbar
+searchstring	searchbar.py	/^    searchstring = None$/;"	v	class:Searchbar
+sections	config.py	/^    sections = None$/;"	v	class:ConfigBase
+set_always_on_top	window.py	/^    def set_always_on_top(self, value):$/;"	m	class:Window
+set_angle	editablelabel.py	/^    def set_angle(self, angle ):$/;"	m	class:EditableLabel
+set_borderless	window.py	/^    def set_borderless(self, value):$/;"	m	class:Window
+set_custom	editablelabel.py	/^    def set_custom(self):$/;"	m	class:EditableLabel
+set_custom_label	notebook.py	/^    def set_custom_label(self, text):$/;"	m	class:TabLabel
+set_custom_string	titlebar.py	/^    def set_custom_string(self, string):$/;"	m	class:Titlebar
+set_cwd	terminal.py	/^    def set_cwd(self, cwd=None):$/;"	m	class:Terminal
+set_dbus_data	terminator.py	/^    def set_dbus_data(self, dbus_service):$/;"	m	class:Terminator
+set_font	terminal.py	/^    def set_font(self, fontdesc):$/;"	m	class:Terminal
+set_from_icon_name	titlebar.py	/^    def set_from_icon_name(self, name, size = gtk.ICON_SIZE_MENU):$/;"	m	class:Titlebar
+set_fullscreen	window.py	/^    def set_fullscreen(self, value):$/;"	m	class:Window
+set_group	terminal.py	/^    def set_group(self, _item, name):$/;"	m	class:Terminal
+set_group_label	titlebar.py	/^    def set_group_label(self, name):$/;"	m	class:Titlebar
+set_groupsend	terminal.py	/^    def set_groupsend(self, _widget, value):$/;"	m	class:Terminal
+set_hidden	window.py	/^    def set_hidden(self, value):$/;"	m	class:Window
+set_iconified	window.py	/^    def set_iconified(self, value):$/;"	m	class:Window
+set_initial_position	paned.py	/^    def set_initial_position(self, widget, event):$/;"	m	class:Paned
+set_item	config.py	/^    def set_item(self, key, value, profile='default', plugin=None):$/;"	m	class:ConfigBase
+set_label	notebook.py	/^    def set_label(self, text):$/;"	m	class:TabLabel
+set_layout	config.py	/^    def set_layout(self, layout, tree):$/;"	m	class:ConfigBase
+set_layout	prefseditor.py	/^    def set_layout(self, layout_name):$/;"	m	class:LayoutEditor
+set_layout	prefseditor.py	/^    def set_layout(self, layout_name):$/;"	m	class:PrefsEditor
+set_layout_item	prefseditor.py	/^    def set_layout_item(self, item_name):$/;"	m	class:LayoutEditor
+set_maximised	window.py	/^    def set_maximised(self, value):$/;"	m	class:Window
+set_origcwd	terminator.py	/^    def set_origcwd(self, cwd):$/;"	m	class:Terminator
+set_plugin	config.py	/^    def set_plugin(self, plugin, tree):$/;"	m	class:ConfigBase
+set_plugin	prefseditor.py	/^    def set_plugin(self, plugin):$/;"	m	class:PrefsEditor
+set_profile	config.py	/^    def set_profile(self, profile, force=False):$/;"	m	class:Config
+set_profile	terminal.py	/^    def set_profile(self, _widget, profile, force=False):$/;"	m	class:Terminal
+set_profile_values	prefseditor.py	/^    def set_profile_values(self, profile):$/;"	m	class:PrefsEditor
+set_real_transparency	window.py	/^    def set_real_transparency(self, value=True):$/;"	m	class:Window
+set_rough_geometry_hints	window.py	/^    def set_rough_geometry_hints(self):$/;"	m	class:Window
+set_section	configobj/configobj.py	/^                def set_section(in_section, this_section):$/;"	f	function:ConfigObj._load
+set_sticky	window.py	/^    def set_sticky(self, value):$/;"	m	class:Window
+set_terminal_title	titlebar.py	/^    def set_terminal_title(self, widget, title):$/;"	m	class:Titlebar
+set_text	editablelabel.py	/^    def set_text(self, text, force=False):$/;"	m	class:EditableLabel
+set_title	window.py	/^    def set_title(self, widget, text):$/;"	m	class:WindowTitle
+set_values	prefseditor.py	/^    def set_values(self):$/;"	m	class:PrefsEditor
+setdefault	configobj/configobj.py	/^    def setdefault(self, key, default=None):$/;"	m	class:Section
+setup	debugserver.py	/^  def setup(self):$/;"	m	class:PythonConsoleServer
+shell_lookup	util.py	/^def shell_lookup():$/;"	f
+show	terminal_popup_menu.py	/^    def show(self, widget, event=None):$/;"	m	class:TerminalPopupMenu
+show	window.py	/^    def show(self, startup=False):$/;"	m	class:Window
+signalman	container.py	/^    signalman = None$/;"	v	class:Container
+signals	container.py	/^    signals = None$/;"	v	class:Container
+signals	tests/testsignalman.py	/^    signals = None$/;"	v	class:TestWidget
+sizetext	titlebar.py	/^    sizetext = None$/;"	v	class:Titlebar
+sockaddr_storage	freebsd.py	/^class sockaddr_storage(Structure):$/;"	c
+spawn	debugserver.py	/^def spawn(env):$/;"	f
+spawn_child	terminal.py	/^    def spawn_child(self, widget=None, respawn=False, debugserver=False):$/;"	m	class:Terminal
+split_axis	container.py	/^    def split_axis(self, widget, vertical=True, cwd=None, sibling=None, siblinglast=None):$/;"	m	class:Container
+split_axis	notebook.py	/^    def split_axis(self, widget, vertical=True, cwd=None, sibling=None, widgetfirst=True):$/;"	m	class:Notebook
+split_axis	paned.py	/^    def split_axis(self, widget, vertical=True, cwd=None, sibling=None,$/;"	m	class:Paned
+split_axis	window.py	/^    def split_axis(self, widget, vertical=True, cwd=None, sibling=None, widgetfirst=True):$/;"	m	class:Window
+split_horiz	container.py	/^    def split_horiz(self, widget, cwd=None):$/;"	m	class:Container
+split_vert	container.py	/^    def split_vert(self, widget, cwd=None):$/;"	m	class:Container
+squot	configobj/configobj.py	/^squot = "'%s'"$/;"	v
+start_search	searchbar.py	/^    def start_search(self):$/;"	m	class:Searchbar
+sunos_get_pid_cwd	cwd.py	/^def sunos_get_pid_cwd(pid):$/;"	f
+system_focus	config.py	/^    system_focus = None$/;"	v	class:Config
+system_font	config.py	/^    system_font = None$/;"	v	class:Config
+tab_change	window.py	/^    def tab_change(self, widget, num=None):$/;"	m	class:Window
+tab_new	window.py	/^    def tab_new(self, widget=None, debugtab=False, _param1=None, _param2=None):$/;"	m	class:Window
+tdquot	configobj/configobj.py	/^tdquot = "'''%s'''"$/;"	v
+term_zoomed	window.py	/^    term_zoomed = False$/;"	v	class:Window
+terminal	terminal_popup_menu.py	/^    terminal = None$/;"	v	class:TerminalPopupMenu
+terminal	titlebar.py	/^    terminal = None$/;"	v	class:Titlebar
+terminal_hsplit	ipc.py	/^    def terminal_hsplit(self, uuid=None):$/;"	m	class:DBusService
+terminal_hsplit	ipc.py	/^def terminal_hsplit(session, uuid):$/;"	f
+terminal_split	ipc.py	/^    def terminal_split(self, uuid, horiz):$/;"	m	class:DBusService
+terminal_vsplit	ipc.py	/^    def terminal_vsplit(self, uuid=None):$/;"	m	class:DBusService
+terminal_vsplit	ipc.py	/^def terminal_vsplit(session, uuid):$/;"	f
+terminalbox	terminal.py	/^    terminalbox = None$/;"	v	class:Terminal
+terminals	terminator.py	/^    terminals = None$/;"	v	class:Terminator
+terminalshot	plugins/terminalshot.py	/^    def terminalshot(self, _widget, terminal):$/;"	m	class:TerminalShot
+terminator	container.py	/^    terminator = None$/;"	v	class:Container
+terminator	ipc.py	/^    terminator = None$/;"	v	class:DBusService
+terminator	notebook.py	/^    terminator = None$/;"	v	class:TabLabel
+terminator	terminal.py	/^    terminator = None$/;"	v	class:Terminal
+terminator	terminal_popup_menu.py	/^    terminator = None$/;"	v	class:TerminalPopupMenu
+terminator	titlebar.py	/^    terminator = None$/;"	v	class:Titlebar
+terminator	window.py	/^    terminator = None$/;"	v	class:Window
+termtext	titlebar.py	/^    termtext = None$/;"	v	class:Titlebar
+test_suite	tests/test_doctests.py	/^def test_suite():$/;"	f
+text	window.py	/^    text = None$/;"	v	class:WindowTitle
+timers	plugins/activitywatch.py	/^    timers = None$/;"	v	class:ActivityWatch
+timers	plugins/activitywatch.py	/^    timers = None$/;"	v	class:InactivityWatch
+title	window.py	/^    title = None$/;"	v	class:Window
+titlebar	terminal.py	/^    titlebar = None$/;"	v	class:Terminal
+toggle_widget_visibility	terminal.py	/^    def toggle_widget_visibility(self, widget):$/;"	m	class:Terminal
+toggle_zoom	container.py	/^    def toggle_zoom(self, widget, fontscale = False):$/;"	m	class:Container
+treestore	prefseditor.py	/^    treestore = None$/;"	v	class:LayoutEditor
+treeview	prefseditor.py	/^    treeview = None$/;"	v	class:LayoutEditor
+tsquot	configobj/configobj.py	/^tsquot = '"""%s"""'$/;"	v
+type	factory.py	/^    def type(self, product):$/;"	m	class:Factory
+types	factory.py	/^    types = {'Terminal': 'terminal',$/;"	v	class:Factory
+types_keys	factory.py	/^    types_keys = types.keys()$/;"	v	class:Factory
+uintlen	freebsd.py	/^uintlen = c_size_t(sizeof(c_uint))$/;"	v
+ungroup	terminal.py	/^    def ungroup(self, _widget, data):$/;"	m	class:Terminal
+ungroup_all	terminator.py	/^    def ungroup_all(self, widget):$/;"	m	class:Terminator
+ungroup_all	window.py	/^    def ungroup_all(self, widget):$/;"	m	class:Window
+ungroup_tab	window.py	/^    def ungroup_tab(self, widget):$/;"	m	class:Window
+uninhibit_save	config.py	/^    def uninhibit_save(self):$/;"	m	class:Config
+unload	plugin.py	/^    def unload(self):$/;"	m	class:Plugin
+unload	plugin.py	/^    def unload(self):$/;"	m	class:URLHandler
+unrepr	configobj/configobj.py	/^def unrepr(s):$/;"	f
+unwatch	plugins/activitywatch.py	/^    def unwatch(self, _vte, terminal):$/;"	m	class:InactivityWatch
+unwatch	plugins/activitywatch.py	/^    def unwatch(self, _widget, terminal):$/;"	m	class:ActivityWatch
+unzoom	container.py	/^    def unzoom(self, widget):$/;"	m	class:Container
+unzoom	notebook.py	/^    def unzoom(self, widget):$/;"	m	class:Notebook
+unzoom	terminal.py	/^    def unzoom(self, widget=None):$/;"	m	class:Terminal
+unzoom	window.py	/^    def unzoom(self, widget):$/;"	m	class:Window
+update	configobj/configobj.py	/^    def update(self, indict):$/;"	m	class:Section
+update	titlebar.py	/^    def update(self, other=None):$/;"	m	class:Titlebar
+update	window.py	/^    def update(self):$/;"	m	class:WindowTitle
+update_angle	notebook.py	/^    def update_angle(self):$/;"	m	class:TabLabel
+update_background_tab	prefseditor.py	/^    def update_background_tab(self):$/;"	m	class:PrefsEditor
+update_button	notebook.py	/^    def update_button(self):$/;"	m	class:TabLabel
+update_profiles	prefseditor.py	/^    def update_profiles(self):$/;"	m	class:LayoutEditor
+update_tab_label_text	notebook.py	/^    def update_tab_label_text(self, widget, text):$/;"	m	class:Notebook
+update_terminal_size	titlebar.py	/^    def update_terminal_size(self, width, height):$/;"	m	class:Titlebar
+update_url_matches	terminal.py	/^    def update_url_matches(self, posix = True):$/;"	m	class:Terminal
+update_visibility	titlebar.py	/^    def update_visibility(self):$/;"	m	class:Titlebar
+uuid	terminal.py	/^    uuid = None$/;"	v	class:Terminal
+validate	configobj/configobj.py	/^    def validate(self, validator, preserve_errors=False, copy=False,$/;"	m	class:ConfigObj
+validate_entry	configobj/configobj.py	/^        def validate_entry(entry, spec, val, missing, ret_true, ret_false):$/;"	f	function:ConfigObj.validate
+values	configobj/configobj.py	/^    def values(self):$/;"	m	class:Section
+ver	freebsd.py	/^ver = c_uint(0)$/;"	v
+verify_request	debugserver.py	/^  def verify_request(self, request, client_address):$/;"	m	class:PythonConsoleServer
+vte	searchbar.py	/^    vte = None$/;"	v	class:Searchbar
+vte	terminal.py	/^    vte = None$/;"	v	class:Terminal
+walk	configobj/configobj.py	/^    def walk(self, function, raise_errors=True,$/;"	m	class:Section
+watch	plugins/activitywatch.py	/^    def watch(self, _widget, terminal):$/;"	m	class:ActivityWatch
+watch	plugins/activitywatch.py	/^    def watch(self, _widget, terminal):$/;"	m	class:InactivityWatch
+watches	plugins/activitywatch.py	/^    watches = None$/;"	v	class:ActivityWatch
+watches	plugins/activitywatch.py	/^    watches = None$/;"	v	class:InactivityWatch
+whined	config.py	/^    whined = None$/;"	v	class:ConfigBase
+widget_pixbuf	util.py	/^def widget_pixbuf(widget, maxsize=None):$/;"	f
+window	notebook.py	/^    window = None$/;"	v	class:Notebook
+window	prefseditor.py	/^    window = None$/;"	v	class:PrefsEditor
+window	window.py	/^    window = None$/;"	v	class:WindowTitle
+windows	terminator.py	/^    windows = None$/;"	v	class:Terminator
+windowtitle	terminator.py	/^    windowtitle = None$/;"	v	class:Terminator
+with_proxy	ipc.py	/^def with_proxy(func):$/;"	f
+wrapcloseterm	notebook.py	/^    def wrapcloseterm(self, widget):$/;"	m	class:Notebook
+wrapcloseterm	paned.py	/^    def wrapcloseterm(self, widget):$/;"	m	class:Paned
+write	configobj/configobj.py	/^    def write(self, outfile=None, section=None):$/;"	m	class:ConfigObj
+write	debugserver.py	/^  def write(self, data):$/;"	m	class:TerminatorConsole
+wspace_plus	configobj/configobj.py	/^wspace_plus = ' \\r\\n\\v\\t\\'"'$/;"	v
+zoom	container.py	/^    def zoom(self, widget, fontscale = False):$/;"	m	class:Container
+zoom	notebook.py	/^    def zoom(self, widget, fontscale = False):$/;"	m	class:Notebook
+zoom	terminal.py	/^    def zoom(self, widget=None):$/;"	m	class:Terminal
+zoom	window.py	/^    def zoom(self, widget, font_scale=True):$/;"	m	class:Window
+zoom_data	window.py	/^    zoom_data = None$/;"	v	class:Window
+zoom_font	terminal.py	/^    def zoom_font(self, zoom_in):$/;"	m	class:Terminal
+zoom_in	terminal.py	/^    def zoom_in(self):$/;"	m	class:Terminal
+zoom_orig	terminal.py	/^    def zoom_orig(self):$/;"	m	class:Terminal
+zoom_out	terminal.py	/^    def zoom_out(self):$/;"	m	class:Terminal
+zoom_scale	terminal.py	/^    def zoom_scale(self, widget, allocation, old_data):$/;"	m	class:Terminal
